@@ -1,0 +1,17 @@
+# Decreto Ejecutivo PCM 2-2016
+
+Decreto Legislativo Número 278-2013 de fecha 21 de diciembre de 2013 , contentivo de la Ley de Ordenamiento de las Finanzas Públicas, Control de las Exoneraciones y Medida Anti evasión.
+CONSIDERANDO: Que mediante Decreto Ejecutivo en Consejo de Ministros número PCM 019-2015, Artículo 2, literal
+b), el cual establece: “Aprobar de los rendimientos del Fideicomiso cualquier nueva condición que le permita dar cumplimiento a la finalidad del Contrato de Administración de Fondos para el otorgamiento del Subsidio los Programas de “CONVIVIENDA para una Vida Mejor” que permita entre otros la supervisión de subsidios otorgados, contenidos en los Artículos 2 del PCM-037- 2014 y Artículo 4 del PCM-067-2014” Artículo que se deroga en el presente Decreto Ejecutivo.
+CONSIDERANDO: Que corresponde al Presidente de la República definir la política, estrategia y objetivos del Gobierno, discutiéndose y aprobando en Consejo de Ministros.
+POR TANTO:
+En aplicación de los Artículos: 235, 45, Numeral 1, 2,11 y 30 de la Constitución de la República; Artículos 11, 20, 116,117 y 119 numeral 1 de la Ley General de la Administración Pública y su reforma mediante Decreto Legislativo 266-2013.
+DECRETA:
+ARTÍCULO 1. Reformar el Artículo 4 del Decreto Ejecutivo Número PCM-067-2014 del 10 de octubre de 2014, publicado en el Diario Oficial “La Gaceta” el 17 de octubre de 2014, mismo que había sido reformado mediante Decreto Ejecutivo Número PCM-19-2015 del 11 de mayo del 2015, publicado en el Diario Oficial “La Gaceta” el 26 de mayo del 2015, el cual se leerá así:
+“ARTÍCULO 4. Autorizar al Comité Técnico del Fideicomiso del Fondo de Solidaridad de Protección Para la Reducción de la Pobreza Extrema, para que destine hasta el monto de OCHOCIENTOS MILLONES DE LEMPIRAS EXACTOS (L800,000,000.00) anuales, en los Ejercicios Fiscales 2016, 2017 y 2018; los cuales serán destinados para promover a través del bono, los Programas para atender la Vivienda Social o Soluciones Habitacionales para una Vida Mejor”.
+ARTÍCULO 2. Autorizar a la Secretaría de Estado en el Despacho de Finanzas en su calidad de fideicomitente, para que ésta a su vez, autorice al Banco Central de Honduras (BCH) en su calidad de Fiduciario trasladar del “Fideicomiso para la Administración del Fondo de Solidaridad y Protección Social Para la Reducción de la Pobreza Extrema” al Banco Hondureño para la Producción y la Vivienda (BANHPROVI) un porcentaje de hasta el diez por ciento (10%) calculado sobre el monto de Ochocientos Millones de Lempiras (L 800,000.000.00) autorizado para la política de subsidios del Gobierno de la República manejados a través del “Contrato de Administración de Fondos para el Otorgamiento del Subsidio a los Programas de Vivienda Para Una Vida Mejor de CONVIVIENDA”, y que servirá para la creación y sostenibilidad de una Unidad Técnica dependiente del Comité Técnico Administrativo de dicho Fideicomiso que supervise la construcción de las viviendas subsidiadas por el Estado.
+ARTÍCULO 3. Derogar la disposición contenida en el inciso
+b) del Artículo 2, del Decreto Ejecutivo en Consejo de Ministro Número PCM -19-2015 publicado en el Diario Oficial “La Gaceta” del 26 de mayo de 2015.
+ARTÍCULO 4. El presente Decreto entra en vigencia a partir de su publicación en el diario Oficial “La Gaceta”.
+A.
+Sección A Acuerdos y Leyes Dado en la ciudad de Tegucigalpa, municipio del Distrito Central a los cinco (05) días del mes de enero del año dos mil dieciséis (2016).
