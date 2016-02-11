@@ -1,0 +1,11 @@
+# Decreto Ejecutivo PCM 10-2016
+
+Decreto Legislativo 266-2013; 22, 23, 24, 25,26 y 27 de la Ley de Procedimiento Administrativo; 1, 40 numeral 14, 41, 99, 170, 256, 258, 259,284 y 289 del Reglamento General de la Ley Forestal, Áreas Protegidas y Vida Silvestre; 46 de la Ley del Sistema Nacional de Gestión de Riesgos y demás aplicables.
+DECRETA:
+ARTÍCULO 1.- Reformar el Artículo 8 del Decreto Ejecutivo Número PCM 003-2016, publicado en el Diario Oficial “La A.
+Sección A Acuerdos y Leyes Gaceta” el 13 de enero del 2016, mediante el cual se declaró Emergencia Nacional para la extracción, uso y aprovechamiento de productos y subproductos forestales resultantes de la aplicación del Decreto Ejecutivo PCM 051-2015, publicado en el Diario Oficial “La Gaceta” el 12 de agosto del 2015, con el propósito de fortalecer las acciones de control de la plaga del Gorgojo Descortezador del Pino y disminuir el riesgo de propagación de incendios forestales, el cual se leerá así:
+“ARTÍCULO 8.- Se instruye a la Secretaría de Estado en el Despacho de Finanzas, a realizar todos los análisis necesarios a efectos de asignar con la mayor celeridad posible los recursos financieros, para el desarrollo de las actividades anteriormente descritas, para este efecto la planificación y presupuesto deberán ser presentados por el ICF previa revisión del Gabinete Sectorial de Desarrollo Económico y la Secretaría de Coordinación General del Gobierno.
+Dicho presupuesto podrá ser financiado con recursos provenientes del Fondo de Solidaridad y Protección Social para la Reducción de la Pobreza Extrema, constituido mediante Decreto Legislativo 278-2013, publicado en el Diario Oficial La Gaceta en fecha 30 de diciembre del 2013, contentivo de la Ley de Ordenamiento de las Finanzas Públicas, Control de las Exoneraciones y Medidas Antievasión.
+Con el fin de que el ICF ejecute las actividades contempladas en el Plan de Acción 2016. Estos fondos serán transferidos por el Fideicomiso al ICF”.
+ARTÍCULO 02.- El presente Decreto Ejecutivo entra en vigencia a partir del día de su publicación en el Diario Oficial “La Gaceta”.
+Dado en la ciudad de Tegucigalpa, M.D.C., en el Salón Constitucional de Casa Presidencial, a los ocho (08) días del mes de febrero del dos mil dieciséis (2016).
