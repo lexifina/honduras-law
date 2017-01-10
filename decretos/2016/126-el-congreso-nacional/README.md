@@ -1,0 +1,8 @@
+# Decreto 126-2016
+
+La Gaceta No. 34235, 2017-01-10 (Gaceta Digital de la Empresa Nacional de Artes Gráficas: <https://www.enag.gob.hn/index.php/gaceta-digital/20170110-34235/download>). En vigor: 2017-01-10 (the day of publication).
+
+| Disposición | Archivo |
+| --- | --- |
+| Artículo 1 | [art-001.md](art-001.md) |
+| Artículo 2 | [art-002.md](art-002.md) |
