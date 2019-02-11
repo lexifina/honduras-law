@@ -1,0 +1,13 @@
+# Decreto 60-2018
+
+Decreto No.65-2015 de fecha 2 de Junio de 2015.
+CONSIDERANDO: Que de conformidad con el Artículo 205 Atribución 1) de la Constitución de la República, corresponde al Congreso Nacional: crear, decretar, interpretar, reformar y derogar las leyes.
+POR TANTO, DECRETA:
+ARTÍCULO 1.- Reformar el Artículo 1 del Decreto No.65- 2015 de fecha 2 de Junio de 2015, el cual de ahora en adelante deberá leerse de la manera siguiente:
+“ARTÍCULO 1.- Autorizar a la MUNICIPALIDAD DE PUERTO CORTÉS, DEPARTAMENTO DE CORTÉS a incorporar al patrimonio del Fideicomiso denominado “Ejecución de Obras de Infraestructura y Servicios Públicos en la República de Honduras”, contenido en el Decreto No.369-2013 de fecha 20 de Enero de 2014, los fondos municipales provenientes de la totalidad de los ingresos que por concepto de canon de arrendamiento y transferencias que percibe dicha Municipalidad de la Sociedad Operadora Portuaria Centroamericana, S. A. de C. V. (OPC), los que serán incorporados por el período de tiempo de vigencia del Fideicomiso”.
+ARTÍCULO 2.- Autorizar la incorporación del Proyecto Municipal de Infraestructura y Servicios Públicos denominado “Plan Milenio” y todas sus etapas al Fideicomiso del Proyecto denominado “Ejecución de Obras de Infraestructura y Servicios Públicos en la República de Honduras”, aprobado en Decreto Ejecutivo PCM 005-2014 y aprobado en Decreto No.369-2013, publicado en fecha 22 de Marzo del 2014 en el Diario Oficial “La Gaceta”, incorporación que se deberá realizar a partir de la suscripción del Contrato respectivo con la Municipalidad de Puerto Cortés, Departamento de Cortés, Banco Financiera Comercial Hondureña, S. A. y el Inversionista-Operador que resulte adjudicatario del proceso de selección conforme a lo previsto en la Ley de Promoción de la Alianza Público-Privada y su Reglamento.
+ARTÍCULO 3.- Autorizar que la totalidad de los flujos municipales que provienen de los ingresos que por concepto de canon de arrendamiento y transferencias paga “Operadora Portuaria Centroamericana, S.A. de C.V. (OPC)” a la Municipalidad de Puerto Cortés deberán servir como fuente de repago del proyecto de iniciativa privada “Plan Milenio” y todas sus etapas.
+A.
+Sección A Acuerdos y Leyes ARTÍCULO 4.- El presente Decreto entrará en vigencia a partir del día de su publicación en el Diario Oficial “La Gaceta”.
+Dado en la ciudad de Tegucigalpa, Municipio del Distrito Central, en el Salón de Sesiones del Congreso Nacional, a los Diecisiete días del mes de Julio de Dos Mil Dieciocho.
+MAURICIO OLIVA HERRERA PRESIDENTE JOSÉ TOMÁS ZAMBRANO MOLINA SECRETARIO SALVADOR VALERIANO PINEDA SECRETARIO
