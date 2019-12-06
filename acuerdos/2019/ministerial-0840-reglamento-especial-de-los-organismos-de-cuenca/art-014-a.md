@@ -1,0 +1,5 @@
+# Artículo 14-A
+La Autoridad del Agua establecerá una nueva delimitación geográfica de las Cuencas, Subcuencas y Microcuencas la cual se realizará mediante la agrupación de los ámbitos previamente identificados en la cartografía existente, esta nueva delimitación se realizará tomando en cuenta la existencia de sus recursos hídricos, número de usuarios, actividad económica que soportan u otras circunstancias singulares que justifiquen su consideración como una unidad territorial agrupada para una gestión más eficiente y sostenible de sus recursos.
+En su defecto y mientras se formaliza dicha cartografía, los Organismos de Cuenca en fase constituyente podrán proponer, para su aprobación por la Autoridad del Agua, el ámbito geográfico correspondiente con base en los límites territoriales de las Cuencas, Subcuencas y Microcuencas, ya establecidas en los Mapas Nacionales para la planificación hídrica de Cuencas, Subcuencas y Microcuencas, que al efecto oficializó MI AMBIENTE+.
+CAPÍTULO III CONSTITUCIÓN DE LOS ORGANISMOS DE CUENCA SECCIÓN PRIMERA ACTUACIONES PRELIMINARES AL PROCESO DE CONFORMACIÓN DE LOS ORGANISMOS DE CUENCA A.
+Sección A Acuerdos y Leyes
