@@ -1,0 +1,11 @@
+# Artículo 10-A
+Los Consejos de Cuenca, estarán conformados con los actores involucrados en su ámbito geográfico, en concordancia con el artículo 22 de la Ley General de Aguas.
+Éstos serán actores del Gobierno Central, Gobierno Local y Usuarios del Agua y estarán integrados de la siguiente manera:
+a) Por el Gobierno Central participarán representantes de las Oficinas Regionales del Gobierno Nacional integradas en el Consejo Nacional de Recursos Hídricos (LGA Artículo 22.1), con competencias en el ámbito geográfico de la cuenca correspondiente.
+La Autoridad del Agua una vez definido el ámbito geográfico de la cuenca conforme a lo establecido en el artículo 14 de este reglamento, determinará las Instituciones regionales que deberán integrarse en el Consejo de Cuenca, efectuando éstas el nombramiento de sus respectivos representantes. En su defecto y en el supuesto de inexistencia de tales instituciones dentro del ámbito geográfico de la Cuenca, dicha autoridad podrá nombrar en representación del Gobierno Central a otras instituciones que estén involucradas en la gestión, uso, conservación, protección y restauración del recurso hídrico.
+En los Consejos de Cuenca, fronterizas y transfronterizas de gestión compartida, la representación del Gobierno Nacional deberá incluir un representante de la Secretaría de Estado en el Despacho de Relaciones Exteriores y Cooperación Internacional.
+b) Por el gobierno local, participarán los Gobiernos Municipales cuyos territorios se sitúen total o parcialmente en sus respectivas áreas de actuación. Cada Gobierno Municipal dispondrá de un representante. Estos representantes serán nombrados por la Corporación Municipal y el mismo debe constar por escrito.
+c) Conforme a lo establecido en el artículo 22 de la Ley General de Aguas, los Usuarios del Agua productivos y no productivos podrán estar representados por los sectores que tuvieren intervención en su ámbito geográfico, mencionados en los numerales 3, 4, 5, 6, 7, 8, 9, 12 y 13 de dicho artículo.
+d) Asimismo y conforme a lo establecido en el artículo 22 de la LGA, formarán parte también del Consejo de Cuenca.
+1) Dos (2) representantes de Consejos de Subcuenca.
+2) Dos (2) representantes de Consejos de Microcuenca.
