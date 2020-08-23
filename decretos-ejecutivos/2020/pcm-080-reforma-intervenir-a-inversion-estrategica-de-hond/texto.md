@@ -1,0 +1,12 @@
+# Decreto Ejecutivo PCM 80-2020
+
+Decreto Legislativo No. 16-2017; Decreto Legislativo No. 33- 2020; Decreto Legislativo No. 92-2020; Decretos Ejecutivos Números PCM-006-2014, PCM-009-2018 reformado por el Decreto Ejecutivo Número PCM-025-2018; Artículo 6 del Reglamento de la Ley de Contratación del Estado; y, Acuerdo No. 031-2005.
+DECRETA:
+ARTÍCULO 1.- Reformar por adición al Artículo 1 del Decreto Ejecutivo Número PCM-071-2020 publicado en el Diario Oficial “La Gaceta” en fecha 24 de julio de 2020, Edición No. 35,323, adicionándole el Artículo 1-A, el cual debe leerse así:
+“Artículo 1-A.- La Comisión Interventora podrá adquirir servicios especializados con fondos públicos, bajo condiciones excepcionales determinadas en los lineamientos de adquisición de INVEST-Honduras, conforme a las disposiciones contenidas en su normativa y en el presente Decreto, a fin de dar cumplimiento a los objetivos y compromisos establecidos en el Convenio del Desafío del Milenio.
+ARTÍCULO 2.- Reformar por adición el Artículo 9 del Decreto Ejecutivo Número PCM-071-2020, publicado en el Diario Oficial “La Gaceta” en fecha 24 de julio de 2020, Edición No. 35,323, adicionándole el Artículo 9-A el cual debe leerse así:
+A.
+Sección A Acuerdos y Leyes “Artículo 9.A.- Se instruye a la Secretaría de Estado en el Despacho de Finanzas (SEFIN) a realizar la asignación presupuestaria a la Comisión Interventora de Inversión Estrategia de Honduras (INVEST-H) hasta por un monto de SESENTA MILLONES DE LEMPIRAS (L60,000,000.00) de fondos públicos, dicha asignación para atender gastos ineludibles y necesarios para el cumplimento de las facultades otorgadas a la Comisión Interventora.
+Por lo anterior la Comisión Interventora (INVEST-H) debe presentar la solicitud con el detalle de los Gastos con la programación de la Ejecución del Presupuesto, ante la Secretaría de Estado en el Despacho de Finanzas. Queda facultada la SEFIN para que, en el marco de la disciplina presupuestaria y la aplicación del Decreto Ejecutivo número PCM-020-2020 y los Decretos Legislativos Números 33-2020 y 92-2020 a fin que se realice la asignación presupuestaria.
+ARTÍCULO 3.- El presente Decreto Ejecutivo entra en vigencia a partir del día de su publicación en el Diario Oficial “La Gaceta”.
+Dado en Casa Presidencial, en la ciudad de Tegucigalpa, municipio del Distrito Central, a los veintidós (22) días del mes de agosto del año dos mil veinte (2020).
