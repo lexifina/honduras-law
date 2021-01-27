@@ -1,0 +1,13 @@
+# Decreto 183-2020
+
+Decreto No.137-2016, este Poder del Estado aprobó la Ley de Financiamiento, Transparencia y Fiscalización a Partidos Políticos y Candidatos.
+CONSIDERANDO: Que mediante Decreto No.137-2020, de fecha 15 de Octubre del año 2020, publicado en el Diario Oficial “La Gaceta” el 15 de Diciembre del año 2020, se realizó una reforma al Artículo 12 de la Ley antes referida, en la que se agregó un último párrafo, con la intención de incluir a los pre-candidatos que formaban parte de los movimientos en formación, que aún no habían sido inscritos como tales, para participar en las elecciones primarias; pero en la práctica dicha reforma tiende a confundir, pues las instituciones bancarias están interpretando que se refiere a los candidatos de los movimientos ya inscritos, por lo que para evitar confusiones es preciso eliminar dicho párrafo.
+CONSIDERANDO: Que el Artículo 205 Atribución 1) de la Constitución de la República, establece que es potestad del A.
+Sección A Acuerdos y Leyes Congreso Nacional: Crear, decretar, interpretar, reformar y derogar las leyes.
+POR TANTO:
+DECRETA:
+ARTÍCULO 1.- Reformar mediante la eliminación del último párrafo, el Artículo 12 de la LEY DE FINANCIAMIENTO, TRANSPARENCIA Y FISCALIZACIÓN A PARTIDOS POLÍTICOS Y CANDIDATOS, contenida en Decreto No.137-2016, de fecha 2 de Noviembre de 2016, publicado en el Diario Oficial “La Gaceta” el 18 de Enero de 2017, reformado mediante Decreto No.137-2020, de fecha 15 de Octubre del año 2020, publicado en el Diario Oficial “La Gaceta” el 15 de Diciembre del año 2020, el que de ahora en adelante se leerá de la forma siguiente:
+“ARTÍCULO 12.- REGISTROS DE LOS MOVIMIENTOS INTERNOS YPRE - CANDID ATO S . L o s Movimientos Internos deben designar a una persona durante su vigencia, para que reciba aportaciones o contribuciones de personas naturales o jurídicas, la que debe ser autorizada por el Partido Político respectivo. Dicha persona tiene la obligación de abrir las cuentas bancarias a nombre del movimiento en instituciones del Sistema Financiero Nacional y es la responsable de rendir cuentas ante la Unidad, a través del Partido Político, una vez que se haya disuelto el respectivo movimiento”.
+ARTÍCULO 2.- El presente Decreto entra en vigencia a partir de la fecha de su publicación en el Diario Oficial “La Gaceta”.
+Dado en la ciudad de Tegucigalpa, municipio del Distrito Central, en la Sesión celebrada por el Congreso Nacional de manera Virtual, a los treinta días del mes de diciembre del año dos mil veinte.
+MARIO ALONSO PÉREZ LÓPEZ PRESIDENTE JOSÉ TOMÁS ZAMBRANO MOLINA SECRETARIO ROSSEL RENÁN INESTROZA MARTÍNEZ SECRETARIO
