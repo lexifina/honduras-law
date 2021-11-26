@@ -1,0 +1,2 @@
+# Artículo 440-B
+Trámite Inicial. El sospechoso detenido en flagrancia deberá ser informado en el acto y con toda claridad de sus derechos y hechos que se le imputan, posteriormente será trasladado de inmediato por las autoridades de policía actuantes, al Ministerio Público junto con la totalidad de la prueba con la que se cuente, la cual podrá exponerla de manera oral al Ministerio Público, quien decidirá si existe mérito para la aplicación de un juicio expedito.

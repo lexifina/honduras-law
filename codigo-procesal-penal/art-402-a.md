@@ -1,0 +1,2 @@
+# Artículo 402-A
+Del Juez de Ejecución y el procedimiento del Beneficio Premial. El Ministerio Público puede solicitar al Juez de Ejecución competente, la celebración de acuerdos para otorgar el beneficio de colaboración establecidos en el Beneficio Premial estipulado en el Código Penal, con personas condenadas cumpliendo con todos los procedimientos de Ley. Con esta finalidad, el Ministerio Público puede celebrar reuniones con los colaboradores, cuando no exista algún impedimento.

@@ -1,0 +1,2 @@
+# Artículo 440-M
+Duración del proceso. Cuando proceda la aplicación del procedimiento expedito, en ningún caso debe de transcurrir un plazo superior a treinta (30) días hábiles entre el inicio del procedimiento y la celebración de la audiencia por parte del tribunal en donde se dicte sentencia. El incumplimiento de ese plazo será causal de responsabilidad disciplinaria para el funcionario responsable de la demora.

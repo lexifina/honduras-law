@@ -1,0 +1,3 @@
+# Artículo 440-C
+Nombramiento de defensa técnica. El fiscal na vez iniciada la investigación, conformará el nombramiento de la defensa técnica del sospechoso, y en caso de negativa del mismo o que no comparezca su defensor particular en el término de dos (2) horas, se procederá a nombrar de oficio un defensor público para que lo asista en el procedimiento.
+Constituida la defensa técnica del investigado, el fiscal le informará oralmente sobre los hechos imputados y los elementos de prueba hasta ese momento recabados, sin poner en riesgo la efectividad de la persecución penal, con el propósito de que prepare su defensa.
