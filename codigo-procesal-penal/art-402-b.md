@@ -1,0 +1,2 @@
+# Artículo 402-B
+Diligencias previas a la celebración del acuerdo. Como consecuencia de las entrevistas que lleve a cabo, el Ministerio Público dispondrá los actos de investigación necesarios para corroborar la información proporcionada, pudiendo ordenar a la Policía Nacional de Honduras que realice las pesquisas previas y rinda un informe al fiscal que la ordenó. Mientras se corrobore la información que ha sido proporcionada, el fiscal deberá tomar las medidas necesarias para garantizar la seguridad personal del colaborador.

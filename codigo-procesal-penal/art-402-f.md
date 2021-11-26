@@ -1,0 +1,3 @@
+# Artículo 402-F
+Resolución judicial sobre el acuerdo de colaboración. El Acuerdo que contenga el beneficio y los demás requisitos establecidos en el Artículo 402-C del presente Código, debe ser aprobado por el Juez de Ejecución respectivo. El Fiscal del caso, debe previamente ser autorizado por el Director de Fiscales o el Fiscal General de la República.
+Al resolver el Acuerdo presentado, el juez puede hacer las modificaciones pertinentes para adecuar el beneficio a las obligaciones a imponer, de acuerdo a la naturaleza y modalidad del hecho punible. Esta resolución es objeto del recurso de Apelación.

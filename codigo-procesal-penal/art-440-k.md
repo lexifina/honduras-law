@@ -1,0 +1,2 @@
+# Artículo 440-K
+Garantías. Se entenderá para todos los efectos de éste Código y especialmente laborales, que la víctima y testigos tendrán derecho a licencia con goce de sueldo por parte de su patrono, privado o público, cuando tenga que asistir a las diligencias judiciales o comparecer ante el llamamiento judicial y por el tiempo necesario para ello. Con el objeto de comprobar la asistencia a tales actos, el tribunal que conoce de la causa deberá extender el comprobante respectivo en el que se indique la naturaleza del acto y la duración efectiva del mismo.

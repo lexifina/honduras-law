@@ -1,0 +1,4 @@
+# Artículo 440-G
+Audiencia de juicio. En el día y hora señalada se dará inicio a la audiencia de juicio, en la cual y a falta de conformidad del imputado con la acusación, el juzgado comprobada la presencia de las partes, testigos y peritos, en su caso; en la primera parte de ésta audiencia, el fiscal expondrá oralmente la acusación dirigida en contra del imputado, donde se describan los hechos y se determine la calificación legal de éstos, así como el señalamiento del orden en que se evacuarán las pruebas. La defensa podrá referirse a la pieza acusatoria y realizar sus consideraciones sobre ella, además de indicar el orden de evacuación de la prueba.
+El juez verificará que la acusación sea clara, precisa, circunstanciada y que el hecho atribuido sea típico. En caso contrario, el fiscal deberá corregirla oralmente en el acto.
+De la audiencia quedará registro digital en video y audio; tendrán acceso a ella las partes, por medio de una copia.
