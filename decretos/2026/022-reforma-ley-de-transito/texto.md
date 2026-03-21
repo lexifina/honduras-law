@@ -1,0 +1,23 @@
+# Decreto 22-2026
+
+DECRETO No. 22-2026 EL CONGRESO NACIONAL,
+CONSIDERANDO: Que la Constitución de la República establece como deber del Estado garantizar la vida, la integridad física y la seguridad de las personas, debiendo adoptar medidas preventivas que reduzcan los riesgos derivados de la circulación vehicular y fortalezcan la seguridad vial en todo el territorio nacional.
+CONSIDERANDO: Que el incremento en el uso de motocicletas, motonetas, bicimotos, bicicletas y otros vehículos motorizados de dos (2) o tres (3) ruedas ha generado un aumento significativo en la exposición al riesgo de accidentes de tránsito, especialmente durante el horario nocturno, cuando la visibilidad disminuye considerablemente.
+CONSIDERANDO: Que los conductores y acompañantes de este tipo de vehículos constituyen uno de los grupos más vulnerables dentro del sistema vial, debido a la falta de protección estructural en comparación con otros vehículos automotores, por lo que resulta necesario fortalecer las medidas de prevención orientadas a mejorar su visibilidad ante otros conductores.
+CONSIDERANDO: Que el uso obligatorio de chalecos, arneses o distintivos reflectivos durante el horario nocturno constituye una medida técnica de seguridad vial reconocida internacionalmente, eficaz para reducir accidentes, mejorar la identificación visual de los usuarios de motocicletas y bicicletas y disminuir la siniestralidad en condiciones de baja iluminación.
+CONSIDERANDO: Que es procedente establecer la obligatoriedad del uso de distintivos reflectivos en horario A.
+Sección A Acuerdos y Leyes DIARIO OFICIAL DE LA REPÚBLICA DE HONDURAS DECANO DE LA PRENSA HONDUREÑA PARA MEJOR SEGURIDAD DE SUS PUBLICACIONES ABG. JUAN MANUEL GÁLVEZ ORDOÑEZ Gerente General DIOSSANA GUADALUPE FLORES LEIVA Coordinadora y Supervisora Colonia MirafIores Teléfono/Fax: Gerencia 2230-2520, 2230-1821 Administración: 2230-3026 CENTRO CÍVICO GUBERNAMENTAL nocturno y mantener su carácter voluntario durante el horario diurno, en atención a criterios de proporcionalidad, razonabilidad y prevención, garantizando así una regulación equilibrada que fortalezca la seguridad sin imponer cargas excesivas a la ciudadanía.
+CONSIDERANDO: Que corresponde a la Dirección Nacional de Vialidad y Transporte (DNVT) y demás autoridades competentes adecuar sus mecanismos de control, supervisión y sanción conforme a la presente reforma, asegurando su correcta aplicación y el cumplimiento efectivo de la normativa.
+CONSIDERANDO: Que de conformidad al Artículo 205 Atribución 1) de la Constitución de la República, corresponde al Congreso Nacional: Crear, decretar, interpretar, reformar y derogar las leyes.
+POR TANTO, DECRETA:
+ARTÍCULO 1.- Reformar por adición el numeral 28) del Artículo 99 de la LEY DE TRÁNSITO, contenida en Decreto No.205-2005 de fecha 3 de Enero de 2006 y publicado en el Diario Oficial “La Gaceta” No.
+30,892, el cual se leerá de la manera siguiente.
+“ARTÍCULO 99.- SON INFRACCIONES MENOS GRAVES: 28) Los conductores de motocicletas y sus acompañantes deben portar chaleco con distintivo reflectivo de manera obligatoria durante el horario nocturno, comprendido entre las seis de la tarde (6:00 p.m.) y las seis de la mañana (6:00 a.m.), como medida de seguridad vial.
+Es de carácter obligatorio el uso de banda reflectora o cualquier tipo distintivo de color anaranjado, rojo o blanco, para los conductores y pasajeros de vehículos motorizados en dos (2) o tres (3) ruedas con motor fijo o agregado como ser: motocicletas, motonetas, bicimotos, asimismo, las bicicletas y otros similares A.
+Sección A Acuerdos y Leyes a las anteriores. La banda reflectiva debe estar adherida a un arnés o chaleco.”
+ARTÍCULO 2.- Durante el horario diurno, comprendido entre las seis de la mañana (6:00 a.m.) y las seis de la tarde (6:00 p.m.), el uso del chaleco reflectivo será voluntario.
+ARTÍCULO 3.- La portación de las cintas reflectivas será de uso obligatorio para las mochilas térmicas que usan los delivery al momento de portar las encomiendas o entregas, lo anterior para mejorar la visibilidad del motociclista; misma que deben ser adquiridas por las empresas que prestan ese servicio.
+ARTÍCULO 4.- La Dirección Nacional de Vialidad y Transporte (DNVT) y demás autoridades competentes deberán adecuar sus procedimientos de control y sanción conforme a la presente reforma.
+ARTÍCULO 5.- El presente Decreto entrará en vigencia a partir del día de su publicación en el Diario Oficial “La Gaceta”.
+Dado en la ciudad de Tegucigalpa, Municipio del Distrito Central, en el Salón de Sesiones del Congreso Nacional, a los tres días del mes de marzo de dos mil veintiséis.
+JOSÉ TOMÁS ZAMBRANO MOLINA PRESIDENTE CARLOS ROBERTO LEDEZMA CASCO SECRETARIO FRANCIS OMAR CABRERA MIRANDA SECRETARIO
