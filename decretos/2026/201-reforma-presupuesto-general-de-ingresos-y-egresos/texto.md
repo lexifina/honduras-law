@@ -1,0 +1,15 @@
+# Decreto 201-2026
+
+DECRETO No. 201-2026 EL CONGRESO NACIONAL,
+CONSIDERANDO: Que la Constitución de la República de Honduras establece como obligación fundamental del Estado garantizar a la población el acceso a la salud, la seguridad y los servicios públicos esenciales, debiendo adoptar las medidas presupuestarias, administrativas y financieras necesarias para asegurar la continuidad y eficiencia de dichos servicios, especialmente en áreas estratégicas de interés nacional.
+CONSIDERANDO: Que mediante Decreto Legislativo No.62-2026 se aprobó el Presupuesto General de Ingresos y Egresos de la República, para el Ejercicio Fiscal 2026, siendo necesario incorporar reformas y disposiciones especiales orientadas a fortalecer la continuidad operativa de los servicios de salud, seguridad y funcionamiento institucional del Estado, así como autorizar las modificaciones presupuestarias pertinentes para atender obligaciones prioritarias de interés público nacional.
+CONSIDERANDO: Que el Congreso Nacional de la República de Honduras, es el único Órgano Constitucional que puede regular sobre los temas tributarios, tal como lo señala el Artículo 109 de la Constitución de la República de Honduras, tomando que en esa materia la interpretación que realizan las autoridades administrativas debe ser estrictas.
+CONSIDERANDO: Que la publicación de la Reforma en el Diario Oficial “La Gaceta” indica que el Contrato antes mencionado gozará de un régimen de exoneración y extensión A.
+Sección A Acuerdos y Leyes DIARIO OFICIAL DE LA REPÚBLICA DE HONDURAS DECANO DE LA PRENSA HONDUREÑA PARA MEJOR SEGURIDAD DE SUS PUBLICACIONES ABG. JUAN MANUEL GALVEZ ORDONEZ Gerente General DIOSSANA GUADALUPE FLORES LEIVA Coordinadora y Supervisora Colonia MirafIores Teléfono/Fax: Gerencia 2230-2520, 2230-1821 Administración: 2230-3026 CENTRO CÍVICO GUBERNAMENTAL ´͂ tributaria y aduanera, siendo correcto el término de exención y no extensión en vista de que se está configurando aspectos tributarios y aduaneros.
+CONSIDERANDO: Que de conformidad con el Artículo 205, Atribución 1) de la Constitución de la República de Honduras, es potestad del Congreso Nacional: Crear, decretar, interpretar, reformar y derogar las leyes.
+POR TANTO, DECRETA:
+ARTÍCULO 1.- Reformar el Artículo 155-F del Decreto No.62-2026 de fecha 21 de Abril de 2026, publicado en el Diario Oficial “La Gaceta” en fecha 23 de Abril de 2026, contentivo de las DISPOSICIONES PRESUPUESTARIAS AÑO 2026 y sus reformas, el cual se deberá leer de la manera siguiente:
+“ARTÍCULO 155-F. En cumplimiento de… El Contrato antes mencionado gozará de un régimen de exoneración y exención tributaria y aduanera………… régimen tributario de exoneración y exención aquí señalado”.
+ARTÍCULO 2.- El presente Decreto entrará en vigencia a partir del día de su publicación en el Diario Oficial “La Gaceta”.
+Dado en la Ciudad de Tegucigalpa, Municipio del Distrito Central, en el Salón de Sesiones del Congreso Nacional, a los nueve días del mes de septiembre de dos mil veintiséis.
+JOSÉ TOMÁS ZAMBRANO MOLINA PRESIDENTE CARLOS ROBERTO LEDEZMA CASCO SECRETARIO FRANCIS OMAR CABRERA MIRANDA SECRETARIO
