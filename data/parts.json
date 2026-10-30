@@ -1,0 +1,29 @@
+{
+ "parts": {
+  "20-codigo-penal.json": {
+   "acts": [
+    "codigo-penal"
+   ],
+   "sha256": "c07850e1cd341ed63cf0684e324eb6ec6604e220e05c788356fd9817918448af"
+  },
+  "30-codigo-del-trabajo.json": {
+   "acts": [
+    "codigo-del-trabajo"
+   ],
+   "sha256": "dd29b4c6a9b2ae2e8082d4e14ed44f788bb7de9542b5282b0c50b4fdc2e11e57"
+  },
+  "40-codigo-procesal-penal.json": {
+   "acts": [
+    "codigo-procesal-penal"
+   ],
+   "sha256": "3ad9b962edc1aa88eb65d97c0d03eeaa563c7935a21c3ad11ecfdda9deac695d"
+  },
+  "50-codigo-civil.json": {
+   "acts": [
+    "codigo-civil"
+   ],
+   "sha256": "8e437c198d30f782f642490d2f4b9a5a984c0892e461be4c73b7b4ffe4bb1c54"
+  }
+ },
+ "schema": 1
+}
