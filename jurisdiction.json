@@ -1,0 +1,10 @@
+{
+  "path": "hn",
+  "code": "HN",
+  "name": "Honduras",
+  "level": "country",
+  "repo": "https://github.com/lexifina/honduras-law",
+  "build": "built: Constitución de la República de Honduras (Decreto 131 de 1982), text updated to November 2021 (1 version)",
+  "register_date": "2026-10-28",
+  "sources": 1
+}

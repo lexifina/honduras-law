@@ -1,0 +1,9 @@
+The legal text comes from the PDF "Constitución de la República de Honduras, actualizada noviembre 2021" published by the Organization of American States (https://www.oas.org/ext/Portals/33/adam/Content/RsU8CsGIXU29uci6sllzCw/Text/ConstituciondelaRepublica(actualizadanoviembre2021).pdf), retrieved on 29 October 2026. No licence is stated. The Constitution is an official legal text; its copyright status is not confirmed here, and it is reproduced with the attribution above.
+
+The Código Penal (La Gaceta No. 34,940) and the Código del Trabajo (CEDIJ edition) come from the website of the Tribunal Superior de Cuentas (tsc.gob.hn); no licence is stated, and they are reproduced as official legal texts with that attribution.
+
+The Código Procesal Penal and the Código Civil are the editions of the Centro Electrónico de Documentación e Información Judicial (CEDIJ) of the Poder Judicial de Honduras (poderjudicial.gob.hn); no licence is stated, and they are reproduced as official legal texts with that attribution.
+
+Changes made by Lexifina: the text was converted to one Markdown file per provision, one paragraph per line; spacing, quotes and dashes were normalised; footnotes, running heads and page numbers were removed; and the text was arranged as git commits. The wording of the law was not changed. The Organization of American States does not endorse this repository.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are dedicated to the public domain under CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
