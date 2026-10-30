@@ -1,0 +1,75 @@
+{
+ "country": "HN",
+ "acts": [
+  {
+   "slug": "constitucion",
+   "short": "CRH",
+   "title": "Constitución de la República de Honduras (Decreto 131 de 1982)",
+   "url": "https://www.oas.org/ext/Portals/33/adam/Content/RsU8CsGIXU29uci6sllzCw/Text/ConstituciondelaRepublica(actualizadanoviembre2021).pdf",
+   "versions": [
+    {
+     "from": "2021-01-28",
+     "units": 434,
+     "source_url": "https://www.oas.org/ext/Portals/33/adam/Content/RsU8CsGIXU29uci6sllzCw/Text/ConstituciondelaRepublica(actualizadanoviembre2021).pdf",
+     "sha256": "793e4214d64d4eea2d4543e7afc13295abfff8af43bf805764a7a113fc16d898"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-penal",
+   "short": "CP",
+   "title": "Código Penal (Decreto 130-2017)",
+   "url": "https://www.tsc.gob.hn/web/leyes/Decreto_130-2017.pdf",
+   "versions": [
+    {
+     "from": "2020-06-25",
+     "units": 635,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto_130-2017.pdf",
+     "sha256": "469addb5999a144b94f029a48c4bc5745749f3cbb1c4f5871ae679ab21f50228"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-del-trabajo",
+   "short": "CT",
+   "title": "Código del Trabajo (Decreto 189-59)",
+   "url": "https://www.tsc.gob.hn/web/leyes/codigo_de_trabajo.pdf",
+   "versions": [
+    {
+     "from": "2015-03-02",
+     "units": 877,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/codigo_de_trabajo.pdf",
+     "sha256": "de3ad15d544e217614b98725c2575dc2bbe9f10e95643ffb8f6ffe993558f31f"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-procesal-penal",
+   "short": "CPP",
+   "title": "Código Procesal Penal (Decreto 9-99-E)",
+   "url": "http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/CodigoProcesalPenal(ActualizadoNoviembre2021).pdf",
+   "versions": [
+    {
+     "from": "2021-11-26",
+     "units": 480,
+     "source_url": "http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/CodigoProcesalPenal(ActualizadoNoviembre2021).pdf",
+     "sha256": "948e949122fbdfded239763ffb1a1c72ec11626880edf940295688b0695bded7"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-civil",
+   "short": "CC",
+   "title": "Código Civil (Decreto 76-1906)",
+   "url": "http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/C%C3%B3digoCivil(actualizadomayo2018).pdf",
+   "versions": [
+    {
+     "from": "2020-09-16",
+     "units": 2357,
+     "source_url": "http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/C%C3%B3digoCivil(actualizadomayo2018).pdf",
+     "sha256": "80f5ba5d9b7633e0cd9473c152aeabe74e3e98ad62fd5061003fd6f8ec0a471f"
+    }
+   ]
+  }
+ ]
+}
