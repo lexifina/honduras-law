@@ -23,6 +23,13 @@
     "codigo-civil"
    ],
    "sha256": "8e437c198d30f782f642490d2f4b9a5a984c0892e461be4c73b7b4ffe4bb1c54"
+  },
+  "60-q34-conduct-codes.json": {
+   "acts": [
+    "codigo-conducta-etica-aduanas",
+    "codigo-conducta-etica-docente"
+   ],
+   "sha256": "3e016ff48ad3483e590581c86fbc78565eb117e7dc7529f16d5f46f9b8233bce"
   }
  },
  "schema": 1

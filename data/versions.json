@@ -70,6 +70,34 @@
      "sha256": "80f5ba5d9b7633e0cd9473c152aeabe74e3e98ad62fd5061003fd6f8ec0a471f"
     }
    ]
+  },
+  {
+   "slug": "codigo-conducta-etica-aduanas",
+   "short": "CCEA",
+   "title": "Código de Conducta Ética de los Funcionarios y Servidores de la Administración Aduanera de Honduras",
+   "url": "https://www.tsc.gob.hn/web/leyes/Acuerdo-Aduanas-DE-021-2021.pdf",
+   "versions": [
+    {
+     "from": "2021-07-29",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Acuerdo-Aduanas-DE-021-2021.pdf",
+     "sha256": "1a5d81e62c543f2d4e8696efa162ed01ea7848adbcb68393cb506ab8c4adb943"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-conducta-etica-docente",
+   "short": "CCED",
+   "title": "Código de Conducta Ética del Docente Hondureño",
+   "url": "https://www.tsc.gob.hn/web/leyes/Acuerdo-0401-SE-2019.pdf",
+   "versions": [
+    {
+     "from": "2019-06-17",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Acuerdo-0401-SE-2019.pdf",
+     "sha256": "0599898bd024f358dfbdd6b1a8df651f2a61a21d30fab7dcaf2f5fd6eddc94c3"
+    }
+   ]
   }
  ]
 }

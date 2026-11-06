@@ -1,6 +1,6 @@
 # How this repository was made (Honduras)
 
-This file is written by the build on 2026-10-30, the day the source data was retrieved.
+This file is written by the build on 2026-11-06, the day the source data was retrieved.
 
 ## Sources
 
@@ -11,6 +11,8 @@ This file is written by the build on 2026-10-30, the day the source data was ret
 | Tribunal Superior de Cuentas: Código del Trabajo (Decreto 189-59), edition of the Centro Electrónico de Documentación e Información Judicial (CEDIJ) | <https://www.tsc.gob.hn/web/leyes/codigo_de_trabajo.pdf> | 2026-10-30 | No licence stated; official legal text published by State bodies. |
 | Poder Judicial de Honduras, CEDIJ: Código Procesal Penal (actualizado noviembre 2021) | <http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/CodigoProcesalPenal(ActualizadoNoviembre2021).pdf> | 2026-10-30 | No licence stated; official legal text published by the Poder Judicial. |
 | Poder Judicial de Honduras, CEDIJ: Código Civil (actualizado mayo 2018) | <http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/C%C3%B3digoCivil(actualizadomayo2018).pdf> | 2026-10-30 | No licence stated; official legal text published by the Poder Judicial. |
+| Tribunal Superior de Cuentas: Acuerdo ADUANAS-DE-021-2021 (La Gaceta 35,712) | <https://www.tsc.gob.hn/web/leyes/Acuerdo-Aduanas-DE-021-2021.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Acuerdo 0401-SE-2019 (La Gaceta 34,972) | <https://www.tsc.gob.hn/web/leyes/Acuerdo-0401-SE-2019.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -23,20 +25,22 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `codigo-del-trabajo` | Código del Trabajo (Decreto 189-59) | 1 | 2015-03-02 to 2015-03-02 |
 | `codigo-procesal-penal` | Código Procesal Penal (Decreto 9-99-E) | 1 | 2021-11-26 to 2021-11-26 |
 | `codigo-civil` | Código Civil (Decreto 76-1906) | 1 | 2020-09-16 to 2020-09-16 |
+| `codigo-conducta-etica-aduanas` | Código de Conducta Ética de los Funcionarios y Servidores de la Administración Aduanera de Honduras | 1 | 2021-07-29 to 2021-07-29 |
+| `codigo-conducta-etica-docente` | Código de Conducta Ética del Docente Hondureño | 1 | 2019-06-17 to 2019-06-17 |
 
-The build made 5 commits:
+The build made 7 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 5 | first version of an act |
+| 7 | first version of an act |
 | 0 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
-- 0 commits on the branch `futuro`: laws not yet in force on 2026-10-30.
+- 0 commits on the branch `futuro`: laws not yet in force on 2026-11-06.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
 - 1 laws in the record.
-- 6 tags.
+- 8 tags.
 
 ## Dates
 
@@ -48,15 +52,15 @@ When a law gives no date of its own, the default rule applies: The text carries 
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `c7744a4e74d1755395e384ae4929af4e3420ebe8f63e77803d77ba9330360f72` (2646521 bytes).
+- Corpus: sha256 `3dfa724334a4d9c25339b01eb93a6e0e1fea072730c56ba77f2f35868cb1dc47` (2724534 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `35388bee5aa05369f7da68f5a8fa015ea8d442b8`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
-5 versions of 5 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+Not yet run for this build.
 
-A second build from the same corpus into an empty folder gave identical hashes for all 5 history commits and 6 tags (history tip `f637dd435c04dcefdc6685accaa3660e611a085b`).
+No second build of this corpus has been compared yet.
 
 ## Decisions made by hand
 
@@ -74,6 +78,9 @@ A second build from the same corpus into an empty folder gave identical hashes f
 - Código Procesal Penal: one unit per article (art-NNN, lettered articles as art-026-b); epigraphs are kept at the start of the article. Headings, the running header, page numbers, the reform footnotes and their markers, the enacting formula and the signatures are left out. Paragraphs are rebuilt from the line layout (a line ending in . : or ; followed by a capital starts a new paragraph, as do numbered and lettered items).
 - Código Civil: one version, the CEDIJ (Poder Judicial) edition "actualizado mayo 2018", credited to the publisher as "oldest version available" and dated 2020-09-16, the creation date of the edition's PDF (the title gives only the month of updating). Later reforms, if any, are not applied. Articles 21 to 36, printed as one repealed block, are the single unit art-021-036; art. 1381, printed twice with the same text, is kept once; art. 565, printed run on after art. 564, is its own unit.
 - Código Civil: one unit per article (art-NNN, lettered articles as art-026-b); epigraphs are kept at the start of the article. Headings, the running header, page numbers, the reform footnotes and their markers, the enacting formula and the signatures are left out. Paragraphs are rebuilt from the line layout (a line ending in . : or ; followed by a capital starts a new paragraph, as do numbered and lettered items).
+- codigo-conducta-etica-aduanas: Article 18 makes the code effective upon approval by the Director Ejecutivo; the signed approval on the final page is dated 29 July 2021. La Gaceta No. 35,712 published it on 8 September 2021.
+- codigo-conducta-etica-docente: Article 30 makes the code effective on publication in La Gaceta; the source is La Gaceta No. 34,972 of 17 June 2019. The signed agreement was made on 15 May 2019.
+- Each added conduct code is a single-file act containing all official text. Gazette running headers, page numbers, cover summary, the boxed Gazette/ENAG colophon on page 2, and the unrelated decree following the teacher code are excluded. Soft hyphens and whitespace are normalized; visible hyphens remain as published. No OCR is used for these additions.
 
 ## What AI did and did not do
 
@@ -89,3 +96,4 @@ Model use at data-build time:
 - none
 - none
 - none
+- A language model selected official text regions and reviewed metadata and source-page boundaries; no model wrote or corrected legal text.
