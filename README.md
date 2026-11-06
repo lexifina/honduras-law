@@ -1,5 +1,7 @@
 # Honduras: law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Honduras' national law, which global-law reads at `honduras/national/acts/`.
+
 The law of Honduras as a git history. Each provision is one file, each law gets one commit on the day it took effect, and the law that made each change is the commit's author. `git blame` names the law behind every paragraph and `git log` lists every change to an article.
 
 It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `hn/`.
