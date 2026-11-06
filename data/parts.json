@@ -30,6 +30,24 @@
     "codigo-conducta-etica-docente"
    ],
    "sha256": "3e016ff48ad3483e590581c86fbc78565eb117e7dc7529f16d5f46f9b8233bce"
+  },
+  "70-q1269-text-laws.json": {
+   "acts": [
+    "decreto-107-2026",
+    "decreto-127-2026",
+    "decreto-128-2026",
+    "decreto-193-2026",
+    "decreto-198-2026",
+    "decreto-208-2026",
+    "decreto-29-2025",
+    "decreto-30-2025",
+    "decreto-33-2025",
+    "decreto-45-2026",
+    "decreto-48-2025",
+    "decreto-8-2023",
+    "decreto-80-2024"
+   ],
+   "sha256": "e8a44e6522773379a628ba81021554a42d4878912e7813192d918faec6c5b9a0"
   }
  },
  "schema": 1

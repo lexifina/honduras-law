@@ -98,6 +98,188 @@
      "sha256": "0599898bd024f358dfbdd6b1a8df651f2a61a21d30fab7dcaf2f5fd6eddc94c3"
     }
    ]
+  },
+  {
+   "slug": "decreto-208-2026",
+   "short": "Decreto 208-2026",
+   "title": "Ley Especial para el Combate a Asociaciones Terroristas, Maras y Pandillas y el Fortalecimiento del Sistema Penitenciario Nacional",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1587-ley-especial-para-el-combate-a-asociaciones-terroristas-maras-y-pandillas-y-el-fortalecimiento-del-sistema-penitenciario-nacional",
+   "versions": [
+    {
+     "from": "2026-09-26",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-208-2026.pdf",
+     "sha256": "42ea656673cc2cc4b5fab39e89b9e3e4abe42670a6ff7b0f903090f1eceda481"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-198-2026",
+   "short": "Decreto 198-2026",
+   "title": "Ley de Justicia Energética",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1586-ley-de-justicia-energetica",
+   "versions": [
+    {
+     "from": "2026-09-29",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-198-2026.pdf",
+     "sha256": "0f2b9eda88accbc2242dbe032e651208cd19a80b2d15ce93d16fadc99e3b20fb"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-193-2026",
+   "short": "Decreto 193-2026",
+   "title": "Interpretar el Artículo 106 del Decreto No. 10-2002-E, contentivo de la LEY ORGÁNICA DEL TRIBUNAL SUPERIOR DE CUENTAS",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1581-interpretar-el-articulo-106-del-decreto-no-10-2002-e-contentivo-de-la-ley-organica-del-tribunal-superior-de-cuentas",
+   "versions": [
+    {
+     "from": "2026-09-16",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-193-2026.pdf",
+     "sha256": "a1302800b8d28f427247e67335bb1c74c6008e0d8d26b820193cd000ea643194"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-128-2026",
+   "short": "Decreto 128-2026",
+   "title": "Ley de Alivio Financiero al Productor del Agro",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1571-ley-de-alivio-financiero-al-productor-del-agro",
+   "versions": [
+    {
+     "from": "2026-08-03",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-128-2026.pdf",
+     "sha256": "6b3c14ac0ebb1bb1ad00990b609ea8638ddc572ccd787098981357d29499393e"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-127-2026",
+   "short": "Decreto 127-2026",
+   "title": "Ley de Transparencia y Registro Centralizado de Beneficiario Final",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1563-ley-de-transparencia-y-registro-centralizado-de-beneficiario-final",
+   "versions": [
+    {
+     "from": "2026-07-03",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-127-2026.pdf",
+     "sha256": "39d662d26ad8aa17987affc0f5c82bfd943e8efeadaf15400d399ab0df03bf0d"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-107-2026",
+   "short": "Decreto 107-2026",
+   "title": "Ley para el Fortalecimiento y Protección del Sector Agroindustrial, Proyectos de Energía, Turismo, Ganadería, Pequeños Productores Agrícolas de Honduras",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1546-ley-para-el-fortalecimiento-y-proteccion-del-sector-agroindustrial-proyectos-de-energia-turismo-ganaderia-pequenos-productores-agricolas-de-honduras",
+   "versions": [
+    {
+     "from": "2026-06-26",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-107-2026.pdf",
+     "sha256": "8437cd966813cb3823c47772bbb69f918aa3d75fd528a58ecf11b2918496f746"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-45-2026",
+   "short": "Decreto 45-2026",
+   "title": "Ley de Empleo a Tiempo Parcial",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1525-ley-de-empleo-a-tiempo-parcial",
+   "versions": [
+    {
+     "from": "2026-03-28",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-45-2026.pdf",
+     "sha256": "edb3411dbc69e88527aff29fc12cacaaab0e0507a1947c32ad694d862e489d04"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-33-2025",
+   "short": "Decreto 33-2025",
+   "title": "Ley de Implementación de Centros de Cuidados Infantiles y Estancias Infantiles para apoyar a Madres Trabajadoras",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1509-ley-de-implementacion-de-centros-de-cuidados-infantiles-y-estancias-infantiles-para-apoyar-a-madres-trabajadoras",
+   "versions": [
+    {
+     "from": "2026-01-23",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-33-2025.pdf",
+     "sha256": "61e7828a6beb53b09aa54ec1bf6d0bebba1d1b760bbcf47c881e9c83f0e0e174"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-29-2025",
+   "short": "Decreto 29-2025",
+   "title": "Ley de Empleo Inclusivo",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1508-ley-de-empleo-inclusivo",
+   "versions": [
+    {
+     "from": "2026-01-22",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-29-2025.pdf",
+     "sha256": "064372b9430595eb3837c42922222a6d4228d18f134a32496f6c10ad28f82012"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-8-2023",
+   "short": "Decreto 8-2023",
+   "title": "Ley de Educación Integral de Prevención al Embarazo Adolescente en Honduras",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1507-ley-de-educacion-integral-de-prevencion-al-embarazo-adolescente-en-honduras",
+   "versions": [
+    {
+     "from": "2026-01-22",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-8-2023.pdf",
+     "sha256": "20b95496867dbd79005f08c9d826f118c4dd7e75738d43c1aadeb81b1f92d8e9"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-48-2025",
+   "short": "Decreto 48-2025",
+   "title": "Ley Especial de la Comisión Internacional contra la Corrupción y la Impunidad (CICIH)",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1510-ley-especial-de-la-comision-internacional-contra-la-corrupcion-y-la-impunidad-cicih",
+   "versions": [
+    {
+     "from": "2026-01-22",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-48-2025.pdf",
+     "sha256": "fd8c2bbd2e4d1856b0e8b790a998e1314a41b6284f76bc634c054709aecc20fb"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-30-2025",
+   "short": "Decreto 30-2025",
+   "title": "Ley para la Prevención y Control de la Tuberculosis",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1440-ley-para-la-prevencion-y-control-de-la-tuberculosis",
+   "versions": [
+    {
+     "from": "2025-06-16",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-30-2025.pdf",
+     "sha256": "b273a597bea2aeda3aa83e9bc98fa22e01c09d9a8482e61f04405d8c6da0f0db"
+    }
+   ]
+  },
+  {
+   "slug": "decreto-80-2024",
+   "short": "Decreto 80-2024",
+   "title": "Ley del Plan de Formación para la Vida y para el Emprendimiento",
+   "url": "https://www.tsc.gob.hn/biblioteca/index.php/leyes/1377-ley-del-plan-de-formacion-para-la-vida-y-para-el-emprendimiento",
+   "versions": [
+    {
+     "from": "2024-11-23",
+     "units": 1,
+     "source_url": "https://www.tsc.gob.hn/web/leyes/Decreto-80-2024.pdf",
+     "sha256": "39c7778c473a557ca91eaad5886cd9341418ed06297d91a0b4cc9dc975533709"
+    }
+   ]
   }
  ]
 }
