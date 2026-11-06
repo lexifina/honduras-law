@@ -13,6 +13,19 @@ This file is written by the build on 2026-11-06, the day the source data was ret
 | Poder Judicial de Honduras, CEDIJ: Código Civil (actualizado mayo 2018) | <http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/C%C3%B3digoCivil(actualizadomayo2018).pdf> | 2026-10-30 | No licence stated; official legal text published by the Poder Judicial. |
 | Tribunal Superior de Cuentas: Acuerdo ADUANAS-DE-021-2021 (La Gaceta 35,712) | <https://www.tsc.gob.hn/web/leyes/Acuerdo-Aduanas-DE-021-2021.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
 | Tribunal Superior de Cuentas: Acuerdo 0401-SE-2019 (La Gaceta 34,972) | <https://www.tsc.gob.hn/web/leyes/Acuerdo-0401-SE-2019.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley Especial para el Combate a Asociaciones Terroristas, Maras y Pandillas y el Fortalecimiento del Sistema Penitenciario Nacional | <https://www.tsc.gob.hn/web/leyes/Decreto-208-2026.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley de Justicia Energética | <https://www.tsc.gob.hn/web/leyes/Decreto-198-2026.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Interpretar el Artículo 106 del Decreto No. 10-2002-E, contentivo de la LEY ORGÁNICA DEL TRIBUNAL SUPERIOR DE CUENTAS | <https://www.tsc.gob.hn/web/leyes/Decreto-193-2026.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley de Alivio Financiero al Productor del Agro | <https://www.tsc.gob.hn/web/leyes/Decreto-128-2026.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley de Transparencia y Registro Centralizado de Beneficiario Final | <https://www.tsc.gob.hn/web/leyes/Decreto-127-2026.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley para el Fortalecimiento y Protección del Sector Agroindustrial, Proyectos de Energía, Turismo, Ganadería, Pequeños Productores Agrícolas de Honduras | <https://www.tsc.gob.hn/web/leyes/Decreto-107-2026.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley de Empleo a Tiempo Parcial | <https://www.tsc.gob.hn/web/leyes/Decreto-45-2026.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley de Implementación de Centros de Cuidados Infantiles y Estancias Infantiles para apoyar a Madres Trabajadoras | <https://www.tsc.gob.hn/web/leyes/Decreto-33-2025.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley de Empleo Inclusivo | <https://www.tsc.gob.hn/web/leyes/Decreto-29-2025.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley de Educación Integral de Prevención al Embarazo Adolescente en Honduras | <https://www.tsc.gob.hn/web/leyes/Decreto-8-2023.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley Especial de la Comisión Internacional contra la Corrupción y la Impunidad (CICIH) | <https://www.tsc.gob.hn/web/leyes/Decreto-48-2025.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley para la Prevención y Control de la Tuberculosis | <https://www.tsc.gob.hn/web/leyes/Decreto-30-2025.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
+| Tribunal Superior de Cuentas: Ley del Plan de Formación para la Vida y para el Emprendimiento | <https://www.tsc.gob.hn/web/leyes/Decreto-80-2024.pdf> | 2026-11-06 | No licence stated; official legal text, attributed to its publisher. |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -27,20 +40,33 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `codigo-civil` | Código Civil (Decreto 76-1906) | 1 | 2020-09-16 to 2020-09-16 |
 | `codigo-conducta-etica-aduanas` | Código de Conducta Ética de los Funcionarios y Servidores de la Administración Aduanera de Honduras | 1 | 2021-07-29 to 2021-07-29 |
 | `codigo-conducta-etica-docente` | Código de Conducta Ética del Docente Hondureño | 1 | 2019-06-17 to 2019-06-17 |
+| `decreto-208-2026` | Ley Especial para el Combate a Asociaciones Terroristas, Maras y Pandillas y el Fortalecimiento del Sistema Penitenciario Nacional | 1 | 2026-09-26 to 2026-09-26 |
+| `decreto-198-2026` | Ley de Justicia Energética | 1 | 2026-09-29 to 2026-09-29 |
+| `decreto-193-2026` | Interpretar el Artículo 106 del Decreto No. 10-2002-E, contentivo de la LEY ORGÁNICA DEL TRIBUNAL SUPERIOR DE CUENTAS | 1 | 2026-09-16 to 2026-09-16 |
+| `decreto-128-2026` | Ley de Alivio Financiero al Productor del Agro | 1 | 2026-08-03 to 2026-08-03 |
+| `decreto-127-2026` | Ley de Transparencia y Registro Centralizado de Beneficiario Final | 1 | 2026-07-03 to 2026-07-03 |
+| `decreto-107-2026` | Ley para el Fortalecimiento y Protección del Sector Agroindustrial, Proyectos de Energía, Turismo, Ganadería, Pequeños Productores Agrícolas de Honduras | 1 | 2026-06-26 to 2026-06-26 |
+| `decreto-45-2026` | Ley de Empleo a Tiempo Parcial | 1 | 2026-03-28 to 2026-03-28 |
+| `decreto-33-2025` | Ley de Implementación de Centros de Cuidados Infantiles y Estancias Infantiles para apoyar a Madres Trabajadoras | 1 | 2026-01-23 to 2026-01-23 |
+| `decreto-29-2025` | Ley de Empleo Inclusivo | 1 | 2026-01-22 to 2026-01-22 |
+| `decreto-8-2023` | Ley de Educación Integral de Prevención al Embarazo Adolescente en Honduras | 1 | 2026-01-22 to 2026-01-22 |
+| `decreto-48-2025` | Ley Especial de la Comisión Internacional contra la Corrupción y la Impunidad (CICIH) | 1 | 2026-01-22 to 2026-01-22 |
+| `decreto-30-2025` | Ley para la Prevención y Control de la Tuberculosis | 1 | 2025-06-16 to 2025-06-16 |
+| `decreto-80-2024` | Ley del Plan de Formación para la Vida y para el Emprendimiento | 1 | 2024-11-23 to 2024-11-23 |
 
-The build made 7 commits:
+The build made 20 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 7 | first version of an act |
+| 20 | first version of an act |
 | 0 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
 - 0 commits on the branch `futuro`: laws not yet in force on 2026-11-06.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 1 laws in the record.
-- 8 tags.
+- 14 laws in the record.
+- 21 tags.
 
 ## Dates
 
@@ -52,13 +78,13 @@ When a law gives no date of its own, the default rule applies: The text carries 
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `3dfa724334a4d9c25339b01eb93a6e0e1fea072730c56ba77f2f35868cb1dc47` (2724534 bytes).
-- Builder blob hashes (`git hash-object`): `build.py` `35388bee5aa05369f7da68f5a8fa015ea8d442b8`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
+- Corpus: sha256 `81bf8a7126129286870d3e356e7233f98f48b8cf9cef3c1240aef332a669b80b` (3130683 bytes).
+- Builder blob hashes (`git hash-object`): `build.py` `3024ff164c261807dfc4d5b7b1b4a2cde4357da1`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
-Not yet run for this build.
+20 versions of 20 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
 
 No second build of this corpus has been compared yet.
 
@@ -81,6 +107,19 @@ No second build of this corpus has been compared yet.
 - codigo-conducta-etica-aduanas: Article 18 makes the code effective upon approval by the Director Ejecutivo; the signed approval on the final page is dated 29 July 2021. La Gaceta No. 35,712 published it on 8 September 2021.
 - codigo-conducta-etica-docente: Article 30 makes the code effective on publication in La Gaceta; the source is La Gaceta No. 34,972 of 17 June 2019. The signed agreement was made on 15 May 2019.
 - Each added conduct code is a single-file act containing all official text. Gazette running headers, page numbers, cover summary, the boxed Gazette/ENAG colophon on page 2, and the unrelated decree following the teacher code are excluded. Soft hyphens and whitespace are normalized; visible hyphens remain as published. No OCR is used for these additions.
+- decreto-208-2026: The Gazette publication date is 2026-09-26; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-198-2026: The Gazette publication date is 2026-09-29; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-193-2026: The Gazette publication date is 2026-09-16; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-128-2026: The Gazette publication date is 2026-08-03; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-127-2026: The Gazette publication date is 2026-07-03; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-107-2026: The Gazette publication date is 2026-06-26; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-45-2026: The Gazette publication date is 2026-03-28; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-33-2025: The Gazette publication date is 2026-01-23; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-29-2025: The Gazette publication date is 2026-01-22; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-8-2023: The Gazette publication date is 2026-01-22; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-48-2025: The Gazette publication date is 2026-01-22; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-30-2025: The Gazette publication date is 2025-06-16; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
+- decreto-80-2024: The Gazette publication date is 2024-11-23; the final commencement clause makes the instrument effective upon that publication. All native legal text is retained in one file, with Gazette running headers, page numbers, cover summary/colophon and neighbouring instruments excluded using source-page boundaries. No OCR is used.
 
 ## What AI did and did not do
 
@@ -97,3 +136,4 @@ Model use at data-build time:
 - none
 - none
 - A language model selected official text regions and reviewed metadata and source-page boundaries; no model wrote or corrected legal text.
+- A language model selected official PDF regions and inspected metadata and page boundaries. Legal wording is extracted from native PDF text without OCR or model-written corrections.
