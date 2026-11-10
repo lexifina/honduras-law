@@ -1,0 +1,14 @@
+{
+"layout": "<kind>/<year>/<number>",
+"since": "2026-11-10",
+"note": "Act folders before the layout move were named by the act id (slug); paths maps each id to its folder. Ids not placed by the rule keep their folder.",
+"paths": {
+"codigo-civil": "code/codigo-civil",
+"codigo-conducta-etica-aduanas": "code/codigo-conducta-etica-aduanas",
+"codigo-conducta-etica-docente": "code/codigo-conducta-etica-docente",
+"codigo-del-trabajo": "code/codigo-del-trabajo",
+"codigo-penal": "code/codigo-penal",
+"codigo-procesal-penal": "code/codigo-procesal-penal",
+"constitucion": "constitution/constitucion"
+}
+}
