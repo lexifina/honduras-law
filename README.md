@@ -63,6 +63,7 @@ El Código Penal se atribuye al Decreto 130-2017. Todas las demás versiones son
 - `tools/check_repo.py` vuelve a leer desde git cada versión el día en que entró en vigencia y el día anterior, y la compara con el corpus: 20 versiones de 20 normas, 0 discrepancias. Todavía no se ha comparado una segunda construcción.
 - El texto se lee de la capa de texto de cada PDF; en los códigos, los párrafos se reconstruyen a partir de la disposición de las líneas, y los decretos y los códigos de ética se recortan de sus números de La Gaceta en los límites de página de la fuente, sin OCR.
 - Los trailers de todos los commits se pueden analizar; no hay commits de fusión (merge), ni fechas de commit que retrocedan, ni ninguna posterior a la construcción. El sha256 del corpus, los hashes del constructor y cada decisión tomada a mano están en [`REPRODUCE.md`](REPRODUCE.md).
+- [vulnerabilities/](vulnerabilities/): posibles errores de redacción en este derecho, hallados por los detectores de global-law y revisados a mano. Aún no se ha ejecutado.
 
 ## Lo que no muestra
 
@@ -86,6 +87,10 @@ Véase [`LICENSE`](LICENSE). Las fuentes no indican ninguna licencia; los textos
 Ningún modelo de IA escribió, tradujo ni corrigió texto jurídico, y ninguno se ejecuta al construir el historial; los scripts los escribió Claude Code con Claude Opus 5.5, y para los códigos de ética y los decretos un modelo de lenguaje eligió las regiones de texto oficial y los límites de página en los PDF (véase [`REPRODUCE.md`](REPRODUCE.md)).
 
 Esta es una traducción de la versión inglesa ([README.en.md](README.en.md)); si difieren, prevalece la versión inglesa.
+
+## Visualizaciones
+
+- [visualisations/](visualisations/): gráficos hechos a partir de este repositorio. Aún no se han hecho.
 
 ## Más información
 
