@@ -63,6 +63,7 @@ The Código Penal is credited to Decreto 130-2017. Every other version is the "o
 - `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, and compares it with the corpus: 20 versions of 20 acts, 0 mismatches. No second build has been compared yet.
 - The text is read from each PDF's text layer; in the codes, paragraphs are rebuilt from the line layout, and the decrees and codes of ethics are cut from their La Gaceta issues at the source's page boundaries, without OCR.
 - Every commit's trailers parse; there are no merge commits, no commit dates that go backwards and none after the build. The corpus's sha256, the builder's hashes and every decision made by hand are in [`REPRODUCE.md`](REPRODUCE.md).
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -84,6 +85,10 @@ The Código Penal is credited to Decreto 130-2017. Every other version is the "o
 See [`LICENSE`](LICENSE). The sources state no licence; the texts are reproduced as official legal texts, with attribution to the bodies that published them, and the Organization of American States does not endorse this repository. Lexifina's arrangement, tables, commit messages and tools are dedicated to the public domain under CC0 1.0.
 
 No AI model wrote, translated or corrected legal text, and none runs when the history is built; the scripts were written by Claude Code running Claude Opus 5.5, and for the codes of ethics and the decrees a language model chose the official text regions and page boundaries in the PDFs (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 
