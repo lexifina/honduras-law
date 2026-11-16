@@ -1,37 +1,43 @@
-# Honduras: law history in git
+# Honduras: historia del derecho en git
 
+**Español** · [English](README.en.md)
 
-The law of Honduras as a git history: one file per article, one commit per version on the day in its `In-force:` trailer, and the act or publisher behind each version as the commit's author. The sources used here give each act as one text, a consolidated edition or the text as published in La Gaceta, with no earlier texts, so each act has one version for now; a newer text goes on top as a new commit, and `git log` and `git blame` then show what changed. Picking a date gives the text this record holds that day.
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="data/es/effort-dark.svg">
+<img alt="El derecho hondureño en este repositorio: qué contiene, los cambios por año de entrada en vigor, la completitud frente a las fuentes oficiales y la exactitud de lo que contiene" src="data/es/effort-light.svg" width="880">
+</picture>
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Honduras' national law, which global-law reads at `honduras/national/acts/`.
+El derecho de Honduras como historial de git: un archivo por artículo, un commit por versión, fechado el día que indica su trailer `In-force:`, y la norma o el editor de cada versión como autor del commit. Las fuentes usadas aquí dan cada norma como un solo texto, una edición consolidada o el texto tal como se publicó en La Gaceta, sin textos anteriores, por lo que cada norma tiene por ahora una sola versión; un texto más reciente se añade encima como un nuevo commit, y `git log` y `git blame` muestran entonces qué cambió. Al elegir una fecha se obtiene el texto que este registro contiene ese día.
 
-**What is in it now:** the Constitution of 1982, four codes (the Código Civil, Código del Trabajo, Código Penal and Código Procesal Penal), two codes of ethics issued by acuerdo (for customs officials and for teachers) and 13 decrees of the Congreso Nacional of 2023 to 2026: 20 acts and 4,798 provisions, each act in one version. [`data/versions.json`](data/versions.json) gives each act's source and the sha256 of the file it was read from; each act's own `README.md` lists its provisions.
+Forma parte de [lexifina/global-law](https://github.com/lexifina/global-law), un único historial de git para el derecho de todos los países: este es el derecho nacional de Honduras, que global-law lee en `honduras/national/acts/`.
 
-Each act is a folder: the Constitution is `constitution/constitucion/` (its headings are the `seccion-` files) and the codes are in `code/` (`code/codigo-del-trabajo/art-346.md` is Article 346 of the Código del Trabajo, Decreto 189-59, on the length of paid annual leave). The codes of ethics and the decrees are one file each, `texto.md`, in `code/codigo-conducta-etica-*/` and `decreto/<year>/<number>/` (`decreto/2026/45/` is Decreto 45-2026, the Ley de Empleo a Tiempo Parcial). [`data/paths.json`](data/paths.json) maps each act id to its folder.
+**Qué contiene ahora:** la Constitución de 1982, cuatro códigos (el Código Civil, el Código del Trabajo, el Código Penal y el Código Procesal Penal), dos códigos de ética emitidos por acuerdo (para los funcionarios aduaneros y para los docentes) y 13 decretos del Congreso Nacional de 2023 a 2026: 20 normas y 4,798 disposiciones, cada norma en una versión. [`data/versions.json`](data/versions.json) indica la fuente de cada norma y el sha256 del archivo del que se leyó; el `README.md` propio de cada norma enumera sus disposiciones.
 
-The text is in Spanish, the official language, as each source prints it. An English translation is not part of this record.
+Cada norma es una carpeta: la Constitución es `constitution/constitucion/` (sus encabezados son los archivos `seccion-`) y los códigos están en `code/` (`code/codigo-del-trabajo/art-346.md` es el artículo 346 del Código del Trabajo, Decreto 189-59, sobre la duración de las vacaciones anuales remuneradas). Los códigos de ética y los decretos son un solo archivo cada uno, `texto.md`, en `code/codigo-conducta-etica-*/` y `decreto/<year>/<number>/` (`decreto/2026/45/` es el Decreto 45-2026, Ley de Empleo a Tiempo Parcial). [`data/paths.json`](data/paths.json) relaciona el id de cada norma con su carpeta.
 
-## Questions as git commands
+El texto está en español, el idioma oficial, tal como lo imprime cada fuente. Una traducción al inglés no forma parte de este registro.
 
-| Question | Command |
+## Preguntas como comandos de git
+
+| Pregunta | Comando |
 | --- | --- |
-| Every change to Article 346 of the Código del Trabajo | `git log -p --word-diff --follow -- code/codigo-del-trabajo/art-346.md` |
-| Which act wrote each line of Article 346? | `git blame code/codigo-del-trabajo/art-346.md` |
-| Every version of the Código del Trabajo, with the day of each | `git log --diff-filter=r --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- code/codigo-del-trabajo codigo-del-trabajo ":^*/README.md"` |
-| Article 346 as held on 1 January 2020 | `python tools/on.py 2020-01-01 code/codigo-del-trabajo art-346` |
+| Cada cambio del artículo 346 del Código del Trabajo | `git log -p --word-diff --follow -- code/codigo-del-trabajo/art-346.md` |
+| ¿Qué norma escribió cada línea del artículo 346? | `git blame code/codigo-del-trabajo/art-346.md` |
+| Cada versión del Código del Trabajo, con el día de cada una | `git log --diff-filter=r --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- code/codigo-del-trabajo codigo-del-trabajo ":^*/README.md"` |
+| El artículo 346 tal como consta el 1 de enero de 2020 | `python tools/on.py 2020-01-01 code/codigo-del-trabajo art-346` |
 
-On 2026-11-10 the acts moved to their present folders: `--follow` and the old folder name (`codigo-del-trabajo`) reach the history before the move, and `--diff-filter=r` leaves the move itself out.
+El 10 de noviembre de 2026 las normas pasaron a sus carpetas actuales: `--follow` y el nombre de la carpeta anterior (`codigo-del-trabajo`) alcanzan el historial anterior al traslado, y `--diff-filter=r` deja fuera el propio traslado.
 
-**Outside git**, we also host this record publicly, for free:
+**Fuera de git**, también alojamos este registro de forma pública y gratuita:
 
-- **[Ask Claude about Honduran law](https://global-law.lexifina.com/v1/try_claude?country=honduras)**: opens Claude with a first question ready.
-- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=honduras)**: the same question in ChatGPT.
-- **[Search Honduran law on our site](https://lexifina.com/law?country=honduras&q=vacaciones)**: a search for "vacaciones" (paid leave), with each provision's text and its versions, no account needed.
-- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=vacaciones&jurisdiction=honduras)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
+- **[Pregunte a Claude sobre el derecho hondureño](https://global-law.lexifina.com/v1/try_claude?country=honduras)**: abre Claude con una primera pregunta ya preparada.
+- **[Pregunte a ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=honduras)**: la misma pregunta en ChatGPT.
+- **[Busque en el derecho hondureño en nuestro sitio](https://lexifina.com/law?country=honduras&q=vacaciones)**: una búsqueda de "vacaciones", con el texto de cada disposición y sus versiones, sin necesidad de cuenta.
+- **[API REST para desarrolladores](https://global-law.lexifina.com/v1/search_law?query=vacaciones&jurisdiction=honduras)**: la misma búsqueda en JSON, sin clave. Consulte la [documentación aquí](https://lexifina.com/api/global-law).
 
-Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Spanish or in English.
+Ambos asistentes leen el registro mediante el conector gratuito Global law (MCP, `https://global-law.lexifina.com/mcp`); la primera vez, el chat le da el enlace para añadirlo. Pregunte en español o en inglés.
 
-**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+**Alójelo usted mismo fácilmente.** Solo hacen falta git y Python, y las herramientas se ejecutan en su propio equipo:
 
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
@@ -39,53 +45,55 @@ python3 tools/countries.py add honduras/national/acts
 python3 tools/law.py show 2026-01-01 honduras/national/acts/code/codigo-del-trabajo/art-346.md
 ```
 
-Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
+Abierto en Claude Code, Cursor, VS Code o Codex, el clon también inicia un servidor MCP local con las mismas herramientas ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
-## Dates
+## Fechas
 
-Each commit is dated at noon, America/Tegucigalpa, on the day in its `In-force:` trailer. With one text per act, that day is the text's, not the day the act first took effect (the Constitution's was 20 January 1982, art. 379):
+Cada commit está fechado al mediodía, hora de America/Tegucigalpa, del día que indica su trailer `In-force:`. Como hay un solo texto por norma, ese día es el del texto, no el día en que la norma entró en vigencia por primera vez (la Constitución entró en vigencia el 20 de enero de 1982, art. 379):
 
-- for the Constitution, 28 January 2021, when La Gaceta No. 35,500 published the last reform its footnotes name (Decreto 3-2021, ratifying Decreto 192-2020), as the copy says only "actualizada noviembre 2021";
-- for the Código del Trabajo (2 March 2015), the Código Civil (16 September 2020) and the Código Procesal Penal (26 November 2021), the date of the edition's PDF;
-- for the Código Penal, 25 June 2020, the day Art. 635, as reformed by Decreto 46-2020, set for it to take effect;
-- for the codes of ethics and the decrees, the day each one's own clause gives: its La Gaceta publication, or for the customs code its approval on 29 July 2021.
+- para la Constitución, el 28 de enero de 2021, cuando La Gaceta No. 35,500 publicó la última reforma que nombran sus notas al pie (Decreto 3-2021, que ratifica el Decreto 192-2020), ya que la copia solo dice "actualizada noviembre 2021";
+- para el Código del Trabajo (2 de marzo de 2015), el Código Civil (16 de septiembre de 2020) y el Código Procesal Penal (26 de noviembre de 2021), la fecha del PDF de la edición;
+- para el Código Penal, el 25 de junio de 2020, el día que el art. 635, reformado por el Decreto 46-2020, fijó para su entrada en vigencia;
+- para los códigos de ética y los decretos, el día que indica su propia cláusula: su publicación en La Gaceta o, en el caso del código aduanero, su aprobación el 29 de julio de 2021.
 
-The Código Penal is credited to Decreto 130-2017. Every other version is the "oldest version available", credited to a publisher: CEDIJ (Poder Judicial) for the Código Civil and the Código Procesal Penal, the Tribunal Superior de Cuentas for the codes of ethics, and the Organization of American States, the repository's default publisher, for the Constitution and also for the Código del Trabajo and the 13 decrees, although those come from the Tribunal Superior de Cuentas (see Sources). The committer is Lexifina.
+El Código Penal se atribuye al Decreto 130-2017. Todas las demás versiones son la "oldest version available" (la versión más antigua disponible), atribuida a un editor: el CEDIJ (Poder Judicial) para el Código Civil y el Código Procesal Penal, el Tribunal Superior de Cuentas para los códigos de ética, y la Organización de los Estados Americanos, el editor predeterminado del repositorio, para la Constitución y también para el Código del Trabajo y los 13 decretos, aunque estos proceden del Tribunal Superior de Cuentas (véase Fuentes). El committer es Lexifina.
 
-## How it is checked
+## Cómo se comprueba
 
-- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, and compares it with the corpus: 20 versions of 20 acts, 0 mismatches. No second build has been compared yet.
-- The text is read from each PDF's text layer; in the codes, paragraphs are rebuilt from the line layout, and the decrees and codes of ethics are cut from their La Gaceta issues at the source's page boundaries, without OCR.
-- Every commit's trailers parse; there are no merge commits, no commit dates that go backwards and none after the build. The corpus's sha256, the builder's hashes and every decision made by hand are in [`REPRODUCE.md`](REPRODUCE.md).
+- `tools/check_repo.py` vuelve a leer desde git cada versión el día en que entró en vigencia y el día anterior, y la compara con el corpus: 20 versiones de 20 normas, 0 discrepancias. Todavía no se ha comparado una segunda construcción.
+- El texto se lee de la capa de texto de cada PDF; en los códigos, los párrafos se reconstruyen a partir de la disposición de las líneas, y los decretos y los códigos de ética se recortan de sus números de La Gaceta en los límites de página de la fuente, sin OCR.
+- Los trailers de todos los commits se pueden analizar; no hay commits de fusión (merge), ni fechas de commit que retrocedan, ni ninguna posterior a la construcción. El sha256 del corpus, los hashes del constructor y cada decisión tomada a mano están en [`REPRODUCE.md`](REPRODUCE.md).
 
-## What it does not show
+## Lo que no muestra
 
-- **Reforms after each text.** The Constitution stops at its November 2021 copy; the Código Penal is the 2019 Gaceta text, without later reforms (Decretos 93-2021, 59-2024, 84-2026, 103-2026 and 111-2026 among them); the Código del Trabajo stops at Decreto 278-2013, the Código Procesal Penal at Decreto 93-2021, and the Código Civil at May 2018.
-- **Earlier texts, and which decree made each change.** No source used gives past versions, so `git blame` names the publisher, not the reforming decree; the footnotes naming reforms are left out.
-- **The editors' matter.** In the codes, book, title and chapter headings, running heads, page numbers, the enacting formula and signatures are left out; the Constitution keeps its headings.
-- **The rest of Honduras' law.** The Código de Comercio, other decrees of the Congreso Nacional, regulations and court decisions are not here.
+- **Las reformas posteriores a cada texto.** La Constitución se detiene en su copia de noviembre de 2021; el Código Penal es el texto de La Gaceta de 2019, sin reformas posteriores (entre ellas los Decretos 93-2021, 59-2024, 84-2026, 103-2026 y 111-2026); el Código del Trabajo se detiene en el Decreto 278-2013, el Código Procesal Penal en el Decreto 93-2021 y el Código Civil en mayo de 2018.
+- **Los textos anteriores, ni qué decreto hizo cada cambio.** Ninguna de las fuentes usadas da versiones pasadas, por lo que `git blame` nombra al editor, no al decreto reformatorio; se omiten las notas al pie que nombran las reformas.
+- **El material editorial.** En los códigos se omiten los encabezados de libro, título y capítulo, los encabezados de página, los números de página, la fórmula de promulgación y las firmas; la Constitución conserva sus encabezados.
+- **El resto del derecho hondureño.** El Código de Comercio, los demás decretos del Congreso Nacional, los reglamentos y las resoluciones judiciales no están aquí.
 
-## Sources
+## Fuentes
 
-| Source | Kind | Past versions | Notes |
+| Fuente | Tipo | Versiones anteriores | Notas |
 | --- | --- | --- | --- |
-| [Organization of American States](https://www.oas.org/ext/Portals/33/adam/Content/RsU8CsGIXU29uci6sllzCw/Text/ConstituciondelaRepublica%28actualizadanoviembre2021%29.pdf) | Constitución de la República (Decreto 131 de 1982), "actualizada noviembre 2021" | no | Not on a Honduran official site, and the consolidator is not named: check it against La Gaceta |
-| [Tribunal Superior de Cuentas](https://www.tsc.gob.hn/biblioteca/index.php/leyes) | La Gaceta texts: the Código Penal (Decreto 130-2017), the codes of ethics, the 13 decrees; the CEDIJ edition of the Código del Trabajo | no | The Código Penal as published in La Gaceta No. 34,940 of 10 May 2019 |
-| CEDIJ, Poder Judicial | [Código Procesal Penal](https://web.archive.org/web/20211228215105/http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/CodigoProcesalPenal%28ActualizadoNoviembre2021%29.pdf) (Decreto 9-99-E) and [Código Civil](https://web.archive.org/web/20211228214249/http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/C%C3%B3digoCivil%28actualizadomayo2018%29.pdf) (Decreto 76-1906), with their reforms | no | Read from Internet Archive copies of December 2021 |
+| [Organización de los Estados Americanos](https://www.oas.org/ext/Portals/33/adam/Content/RsU8CsGIXU29uci6sllzCw/Text/ConstituciondelaRepublica%28actualizadanoviembre2021%29.pdf) | Constitución de la República (Decreto 131 de 1982), "actualizada noviembre 2021" | no | No figura en un sitio oficial hondureño, y no se nombra a quien la consolidó: contrástela con La Gaceta |
+| [Tribunal Superior de Cuentas](https://www.tsc.gob.hn/biblioteca/index.php/leyes) | Textos de La Gaceta: el Código Penal (Decreto 130-2017), los códigos de ética, los 13 decretos; la edición del CEDIJ del Código del Trabajo | no | El Código Penal tal como se publicó en La Gaceta No. 34,940 del 10 de mayo de 2019 |
+| CEDIJ, Poder Judicial | [Código Procesal Penal](https://web.archive.org/web/20211228215105/http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/CodigoProcesalPenal%28ActualizadoNoviembre2021%29.pdf) (Decreto 9-99-E) y [Código Civil](https://web.archive.org/web/20211228214249/http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/C%C3%B3digoCivil%28actualizadomayo2018%29.pdf) (Decreto 76-1906), con sus reformas | no | Leídos de copias del Internet Archive de diciembre de 2021 |
 
-## Licence
+## Licencia
 
-See [`LICENSE`](LICENSE). The sources state no licence; the texts are reproduced as official legal texts, with attribution to the bodies that published them, and the Organization of American States does not endorse this repository. Lexifina's arrangement, tables, commit messages and tools are dedicated to the public domain under CC0 1.0.
+Véase [`LICENSE`](LICENSE). Las fuentes no indican ninguna licencia; los textos se reproducen como textos jurídicos oficiales, con atribución a los órganos que los publicaron, y la Organización de los Estados Americanos no respalda este repositorio. La ordenación hecha por Lexifina, las tablas, los mensajes de commit y las herramientas se dedican al dominio público bajo CC0 1.0.
 
-No AI model wrote, translated or corrected legal text, and none runs when the history is built; the scripts were written by Claude Code running Claude Opus 5.5, and for the codes of ethics and the decrees a language model chose the official text regions and page boundaries in the PDFs (see [`REPRODUCE.md`](REPRODUCE.md)).
+Ningún modelo de IA escribió, tradujo ni corrigió texto jurídico, y ninguno se ejecuta al construir el historial; los scripts los escribió Claude Code con Claude Opus 5.5, y para los códigos de ética y los decretos un modelo de lenguaje eligió las regiones de texto oficial y los límites de página en los PDF (véase [`REPRODUCE.md`](REPRODUCE.md)).
 
-## More
+Esta es una traducción de la versión inglesa ([README.en.md](README.en.md)); si difieren, prevalece la versión inglesa.
 
-From [lexifina/global-law](https://github.com/lexifina/global-law):
+## Más información
 
-- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
-- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
-- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
-- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
-- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
-- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
+Del repositorio [lexifina/global-law](https://github.com/lexifina/global-law) (páginas en inglés):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): todas las funciones y lo que cada corpus debe admitir (`git blame`, `law.py`, herramientas MCP)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): preguntas y respuestas · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proponer cambios · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): servidor MCP · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): cómo se ha construido · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): lo actualizado que está cada corpus · [Supervisión](https://github.com/lexifina/global-law/tree/main/monitoring): si las actualizaciones funcionan · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): cómo se vigila cada fuente oficial para detectar cambios
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): la rapidez de las herramientas, medida
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): gráficos y conexiones a través del derecho de todo el mundo
+- [Vulnerabilidades](https://github.com/lexifina/global-law/tree/main/vulnerabilities): errores en las normas tal como se publicaron
