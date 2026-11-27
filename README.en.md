@@ -11,7 +11,7 @@ The law of Honduras as a git history: one file per article, one commit per versi
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Honduras' national law, which global-law reads at `honduras/national/acts/`.
 
-**What is in it now:** the Constitution of 1982, 7 codes (among them the Civil, Penal, Criminal Procedure, Labour and Commercial codes), 18 decrees of the Congreso Nacional, 0 executive decrees and 0 acuerdos published in La Gaceta: 26 acts and 8,208 provisions. The layout is in [`STRUCTURE.md`](STRUCTURE.md); each act's own `README.md` lists its provisions.
+**What is in it now:** the Constitution of 1982, 8 codes (among them the Civil, Penal, Criminal Procedure, Labour and Commercial codes), 20 decrees of the Congreso Nacional, 0 executive decrees and 0 acuerdos published in La Gaceta: 29 acts and 8,239 provisions. The layout is in [`STRUCTURE.md`](STRUCTURE.md); each act's own `README.md` lists its provisions.
 
 Each act is a folder with Spanish names: the Constitution is `constitucion/` (its headings are the `seccion-` files), the codes are in `codigos/` (`codigos/codigo-del-trabajo/art-346.md` is Article 346 of the Código del Trabajo, Decreto 189-59, on the length of paid annual leave), decrees in `decretos/<año>/<NNN>-<objeto>/`, executive decrees (PCM) in `decretos-ejecutivos/<año>/` and acuerdos in `acuerdos/<año>/`. A decree that amends another law is one file, `texto.md`. [`data/paths.json`](data/paths.json) maps each act id to its folder.
 
