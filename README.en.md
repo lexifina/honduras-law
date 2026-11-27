@@ -11,9 +11,9 @@ The law of Honduras as a git history: one file per article, one commit per versi
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Honduras' national law, which global-law reads at `honduras/national/acts/`.
 
-**What is in it now:** the Constitution of 1982, four codes (the Código Civil, Código del Trabajo, Código Penal and Código Procesal Penal), two codes of ethics issued by acuerdo (for customs officials and for teachers) and 13 decrees of the Congreso Nacional of 2023 to 2026: 20 acts and 4,798 provisions, each act in one version. [`data/versions.json`](data/versions.json) gives each act's source and the sha256 of the file it was read from; each act's own `README.md` lists its provisions.
+**What is in it now:** the Constitution of 1982, 7 codes (among them the Civil, Penal, Criminal Procedure, Labour and Commercial codes), 14 decrees of the Congreso Nacional, 0 executive decrees and 0 acuerdos published in La Gaceta: 22 acts and 6,498 provisions. The layout is in [`STRUCTURE.md`](STRUCTURE.md); each act's own `README.md` lists its provisions.
 
-Each act is a folder: the Constitution is `constitution/constitucion/` (its headings are the `seccion-` files) and the codes are in `code/` (`code/codigo-del-trabajo/art-346.md` is Article 346 of the Código del Trabajo, Decreto 189-59, on the length of paid annual leave). The codes of ethics and the decrees are one file each, `texto.md`, in `code/codigo-conducta-etica-*/` and `decreto/<year>/<number>/` (`decreto/2026/45/` is Decreto 45-2026, the Ley de Empleo a Tiempo Parcial). [`data/paths.json`](data/paths.json) maps each act id to its folder.
+Each act is a folder with Spanish names: the Constitution is `constitucion/` (its headings are the `seccion-` files), the codes are in `codigos/` (`codigos/codigo-del-trabajo/art-346.md` is Article 346 of the Código del Trabajo, Decreto 189-59, on the length of paid annual leave), decrees in `decretos/<año>/<NNN>-<objeto>/`, executive decrees (PCM) in `decretos-ejecutivos/<año>/` and acuerdos in `acuerdos/<año>/`. A decree that amends another law is one file, `texto.md`. [`data/paths.json`](data/paths.json) maps each act id to its folder.
 
 The text is in Spanish, the official language, as each source prints it. An English translation is not part of this record.
 
@@ -21,10 +21,10 @@ The text is in Spanish, the official language, as each source prints it. An Engl
 
 | Question | Command |
 | --- | --- |
-| Every change to Article 346 of the Código del Trabajo | `git log -p --word-diff --follow -- code/codigo-del-trabajo/art-346.md` |
-| Which act wrote each line of Article 346? | `git blame code/codigo-del-trabajo/art-346.md` |
-| Every version of the Código del Trabajo, with the day of each | `git log --diff-filter=r --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- code/codigo-del-trabajo codigo-del-trabajo ":^*/README.md"` |
-| Article 346 as held on 1 January 2020 | `python tools/on.py 2020-01-01 code/codigo-del-trabajo art-346` |
+| Every change to Article 346 of the Código del Trabajo | `git log -p --word-diff --follow -- codigos/codigo-del-trabajo/art-346.md` |
+| Which act wrote each line of Article 346? | `git blame codigos/codigo-del-trabajo/art-346.md` |
+| Every version of the Código del Trabajo, with the day of each | `git log --diff-filter=r --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- codigos/codigo-del-trabajo codigo-del-trabajo ":^*/README.md"` |
+| Article 346 as held on 1 January 2020 | `python tools/on.py 2020-01-01 codigos/codigo-del-trabajo art-346` |
 
 On 2026-11-10 the acts moved to their present folders: `--follow` and the old folder name (`codigo-del-trabajo`) reach the history before the move, and `--diff-filter=r` leaves the move itself out.
 
@@ -42,7 +42,7 @@ Both assistants read the record through the free Global law connector (MCP, `htt
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
 python3 tools/countries.py add honduras/national/acts
-python3 tools/law.py show 2026-01-01 honduras/national/acts/code/codigo-del-trabajo/art-346.md
+python3 tools/law.py show 2026-01-01 honduras/national/acts/codigos/codigo-del-trabajo/art-346.md
 ```
 
 Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
@@ -78,6 +78,8 @@ The Código Penal is credited to Decreto 130-2017. Every other version is the "o
 | --- | --- | --- | --- |
 | [Organization of American States](https://www.oas.org/ext/Portals/33/adam/Content/RsU8CsGIXU29uci6sllzCw/Text/ConstituciondelaRepublica%28actualizadanoviembre2021%29.pdf) | Constitución de la República (Decreto 131 de 1982), "actualizada noviembre 2021" | no | Not on a Honduran official site, and the consolidator is not named: check it against La Gaceta |
 | [Tribunal Superior de Cuentas](https://www.tsc.gob.hn/biblioteca/index.php/leyes) | La Gaceta texts: the Código Penal (Decreto 130-2017), the codes of ethics, the 13 decrees; the CEDIJ edition of the Código del Trabajo | no | The Código Penal as published in La Gaceta No. 34,940 of 10 May 2019 |
+| [Tribunal Superior de Cuentas, Biblioteca](https://www.tsc.gob.hn/biblioteca/) | La Gaceta extracts: decrees, executive decrees and acuerdos, dated by their commencement clause and the issue's date | yes, each on its day | The publisher's PDF text layer, no OCR of ours |
+| [WIPO Lex](https://www.wipo.int/wipolex/es/legislation/details/2143) | Código de Comercio (Decreto 73-50) | no | Secondary copy: no official open copy found |
 | CEDIJ, Poder Judicial | [Código Procesal Penal](https://web.archive.org/web/20211228215105/http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/CodigoProcesalPenal%28ActualizadoNoviembre2021%29.pdf) (Decreto 9-99-E) and [Código Civil](https://web.archive.org/web/20211228214249/http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/C%C3%B3digoCivil%28actualizadomayo2018%29.pdf) (Decreto 76-1906), with their reforms | no | Read from Internet Archive copies of December 2021 |
 
 ## Licence

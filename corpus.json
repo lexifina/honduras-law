@@ -1,0 +1,27 @@
+{
+  "corpus": "hn/national/acts",
+  "name": "Honduras: la ConstituciÃ³n, los cÃ³digos y los decretos y acuerdos publicados en La Gaceta",
+  "label": "Honduras",
+  "language": "es",
+  "dates": {
+    "commit": "in-force",
+    "other_trailers": [
+      "In-force-basis",
+      "Source",
+      "Kind",
+      "Source-status"
+    ],
+    "time": "12:00 America/Tegucigalpa (UTC-6)"
+  },
+  "in_force_trailer": "In-force",
+  "has_future_branch": false,
+  "author": "the decree or acuerdo when its own La Gaceta text and commencement clause date it; else the publisher",
+  "citation": {
+    "file": "((?:codigos/[^/]+)|(?:decretos/[0-9]{4}/[^/]+)|(?:decretos-ejecutivos/[0-9]{4}/[^/]+)|(?:acuerdos/[0-9]{4}/[^/]+)|constitucion)/art-0*([0-9]+[a-z-]*)\\.md",
+    "cites": "(^|[^0-9])(art[iÃ­]culo|art\\.?) ?{n}\\b"
+  },
+  "sources": [
+    "https://www.tsc.gob.hn/biblioteca/",
+    "https://www.wipo.int/wipolex/es/members/profile/HN"
+  ]
+}
