@@ -1,5 +1,5 @@
 {
-"layout": "constitucion/, codigos/<codigo>/, decretos/<aÃ±o>/<NNN>-<objeto>/, decretos-ejecutivos/<aÃ±o>/pcm-<NNN>-<objeto>/, acuerdos/<aÃ±o>/<numero>-<objeto>/",
+"layout": "constitucion/, codigos/<codigo>/, decretos/<año>/<NNN>-<objeto>/, decretos-ejecutivos/<año>/pcm-<NNN>-<objeto>/, acuerdos/<año>/<numero>-<objeto>/",
 "since": "2026-11-27",
 "note": "Act folders before the layout move were named by the act id (slug); paths maps each id to its folder. Ids not placed by the rule keep their folder.",
 "paths": {
@@ -24,6 +24,10 @@
 "decreto-8-2023": "decretos/2023/008-ley-de-educacion-integral-de-prevencion-al-embaraz",
 "decreto-80-2024": "decretos/2024/080-ley-del-plan-de-formacion-para-la-vida-y-para-el-e",
 "codigo-de-comercio": "codigos/codigo-de-comercio",
-"decreto-134-2011": "decretos/2011/134-reforma-ley-organica-del-tribunal-superior-de-cuen"
+"decreto-134-2011": "decretos/2011/134-reforma-ley-organica-del-tribunal-superior-de-cuen",
+"decreto-96-2017": "decretos/2017/096-reforma-codigo-procesal-penal",
+"decreto-20-2017": "decretos/2017/020-reforma-codigo-procesal-penal",
+"decreto-57-2020": "decretos/2020/057-reforma-codigo-procesal-penal",
+"decreto-43-2023": "decretos/2023/043-codigo-procesal-penal"
 }
 }
