@@ -8,11 +8,13 @@
 | `decretos-ejecutivos/<año>/pcm-<NNN>-<objeto>/` | Decreto Ejecutivo del Presidente en Consejo de Ministros (PCM) |
 | `acuerdos/<año>/<numero>-<objeto>/` | Acuerdo ejecutivo o ministerial |
 
-Cada carpeta tiene un archivo por artículo (`art-001.md`) y un `README.md`. Un decreto que reforma o interpreta otra
+Cada carpeta tiene un archivo por artículo (`art-001.md`) y un `README.md`. Los códigos de más de 1.000 artículos
+(Civil, de Comercio) los agrupan en bloques: `codigos/codigo-civil/arts-1001-2000/art-1176.md`. Un decreto que reforma o interpreta otra
 ley y cita los artículos que reescribe se guarda en un solo archivo (`texto.md`). Ninguna carpeta tiene más de 1.000
 entradas.
 
-Each folder holds one file per article (`art-001.md`) and a `README.md`; an amending decree, which quotes the articles
+Each folder holds one file per article (`art-001.md`) and a `README.md` (codes of more than 1,000 articles, the Civil
+and Commercial codes, group them in blocks of 1,000: `arts-0001-1000/`, `arts-1001-2000/`, ...); an amending decree, which quotes the articles
 it rewrites, is one file (`texto.md`). No folder holds more than 1,000 entries.
 
 ## Fechas / Dates
