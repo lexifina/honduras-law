@@ -4,6 +4,8 @@ The Código Penal (La Gaceta No. 34,940) and the Código del Trabajo (CEDIJ edit
 
 The Código Procesal Penal and the Código Civil are the editions of the Centro Electrónico de Documentación e Información Judicial (CEDIJ) of the Poder Judicial de Honduras (poderjudicial.gob.hn); no licence is stated, and they are reproduced as official legal texts with that attribution.
 
+The decrees, executive decrees and acuerdos added from 27 November 2026 are the La Gaceta extracts the Tribunal Superior de Cuentas publishes in its Biblioteca (https://www.tsc.gob.hn/biblioteca/); no licence is stated, and they are reproduced as official legal texts with that attribution. The Código de Comercio (Decreto 73-50) is the copy WIPO Lex publishes (https://www.wipo.int/wipolex/es/legislation/details/2143), a secondary copy of an official text; WIPO's terms of use apply to WIPO's own materials, and the law's text is reproduced as an official legal text.
+
 Changes made by Lexifina: the text was converted to one Markdown file per provision, one paragraph per line; spacing, quotes and dashes were normalised; footnotes, running heads and page numbers were removed; and the text was arranged as git commits. The wording of the law was not changed. The Organization of American States does not endorse this repository.
 
 Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are dedicated to the public domain under CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/

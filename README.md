@@ -11,9 +11,9 @@ El derecho de Honduras como historial de git: un archivo por artículo, un commi
 
 Forma parte de [lexifina/global-law](https://github.com/lexifina/global-law), un único historial de git para el derecho de todos los países: este es el derecho nacional de Honduras, que global-law lee en `honduras/national/acts/`.
 
-**Qué contiene ahora:** la Constitución de 1982, cuatro códigos (el Código Civil, el Código del Trabajo, el Código Penal y el Código Procesal Penal), dos códigos de ética emitidos por acuerdo (para los funcionarios aduaneros y para los docentes) y 13 decretos del Congreso Nacional de 2023 a 2026: 20 normas y 4,798 disposiciones, cada norma en una versión. [`data/versions.json`](data/versions.json) indica la fuente de cada norma y el sha256 del archivo del que se leyó; el `README.md` propio de cada norma enumera sus disposiciones.
+**Qué contiene ahora:** la Constitución de 1982, 7 códigos (entre ellos el Civil, Penal, Procesal Penal, del Trabajo y de Comercio), 14 decretos del Congreso Nacional, 0 decretos ejecutivos y 0 acuerdos publicados en La Gaceta: 22 normas y 6.498 disposiciones. La estructura está en [`STRUCTURE.md`](STRUCTURE.md); el `README.md` de cada norma enumera sus disposiciones.
 
-Cada norma es una carpeta: la Constitución es `constitution/constitucion/` (sus encabezados son los archivos `seccion-`) y los códigos están en `code/` (`code/codigo-del-trabajo/art-346.md` es el artículo 346 del Código del Trabajo, Decreto 189-59, sobre la duración de las vacaciones anuales remuneradas). Los códigos de ética y los decretos son un solo archivo cada uno, `texto.md`, en `code/codigo-conducta-etica-*/` y `decreto/<year>/<number>/` (`decreto/2026/45/` es el Decreto 45-2026, Ley de Empleo a Tiempo Parcial). [`data/paths.json`](data/paths.json) relaciona el id de cada norma con su carpeta.
+Cada norma es una carpeta con nombres en español: la Constitución es `constitucion/` (sus encabezados son los archivos `seccion-`), los códigos están en `codigos/` (`codigos/codigo-del-trabajo/art-346.md` es el artículo 346 del Código del Trabajo, Decreto 189-59, sobre la duración de las vacaciones anuales remuneradas), los decretos en `decretos/<año>/<NNN>-<objeto>/`, los decretos ejecutivos (PCM) en `decretos-ejecutivos/<año>/` y los acuerdos en `acuerdos/<año>/`. Un decreto que reforma otra ley es un solo archivo, `texto.md`. [`data/paths.json`](data/paths.json) relaciona el id de cada norma con su carpeta.
 
 El texto está en español, el idioma oficial, tal como lo imprime cada fuente. Una traducción al inglés no forma parte de este registro.
 
@@ -21,10 +21,10 @@ El texto está en español, el idioma oficial, tal como lo imprime cada fuente. 
 
 | Pregunta | Comando |
 | --- | --- |
-| Cada cambio del artículo 346 del Código del Trabajo | `git log -p --word-diff --follow -- code/codigo-del-trabajo/art-346.md` |
-| ¿Qué norma escribió cada línea del artículo 346? | `git blame code/codigo-del-trabajo/art-346.md` |
-| Cada versión del Código del Trabajo, con el día de cada una | `git log --diff-filter=r --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- code/codigo-del-trabajo codigo-del-trabajo ":^*/README.md"` |
-| El artículo 346 tal como consta el 1 de enero de 2020 | `python tools/on.py 2020-01-01 code/codigo-del-trabajo art-346` |
+| Cada cambio del artículo 346 del Código del Trabajo | `git log -p --word-diff --follow -- codigos/codigo-del-trabajo/art-346.md` |
+| ¿Qué norma escribió cada línea del artículo 346? | `git blame codigos/codigo-del-trabajo/art-346.md` |
+| Cada versión del Código del Trabajo, con el día de cada una | `git log --diff-filter=r --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- codigos/codigo-del-trabajo codigo-del-trabajo ":^*/README.md"` |
+| El artículo 346 tal como consta el 1 de enero de 2020 | `python tools/on.py 2020-01-01 codigos/codigo-del-trabajo art-346` |
 
 El 10 de noviembre de 2026 las normas pasaron a sus carpetas actuales: `--follow` y el nombre de la carpeta anterior (`codigo-del-trabajo`) alcanzan el historial anterior al traslado, y `--diff-filter=r` deja fuera el propio traslado.
 
@@ -42,7 +42,7 @@ Ambos asistentes leen el registro mediante el conector gratuito Global law (MCP,
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
 python3 tools/countries.py add honduras/national/acts
-python3 tools/law.py show 2026-01-01 honduras/national/acts/code/codigo-del-trabajo/art-346.md
+python3 tools/law.py show 2026-01-01 honduras/national/acts/codigos/codigo-del-trabajo/art-346.md
 ```
 
 Abierto en Claude Code, Cursor, VS Code o Codex, el clon también inicia un servidor MCP local con las mismas herramientas ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
@@ -78,6 +78,8 @@ El Código Penal se atribuye al Decreto 130-2017. Todas las demás versiones son
 | --- | --- | --- | --- |
 | [Organización de los Estados Americanos](https://www.oas.org/ext/Portals/33/adam/Content/RsU8CsGIXU29uci6sllzCw/Text/ConstituciondelaRepublica%28actualizadanoviembre2021%29.pdf) | Constitución de la República (Decreto 131 de 1982), "actualizada noviembre 2021" | no | No figura en un sitio oficial hondureño, y no se nombra a quien la consolidó: contrástela con La Gaceta |
 | [Tribunal Superior de Cuentas](https://www.tsc.gob.hn/biblioteca/index.php/leyes) | Textos de La Gaceta: el Código Penal (Decreto 130-2017), los códigos de ética, los 13 decretos; la edición del CEDIJ del Código del Trabajo | no | El Código Penal tal como se publicó en La Gaceta No. 34,940 del 10 de mayo de 2019 |
+| [Tribunal Superior de Cuentas, Biblioteca](https://www.tsc.gob.hn/biblioteca/) | Extractos de La Gaceta: decretos, decretos ejecutivos y acuerdos, fechados por su cláusula de vigencia y la fecha del número de La Gaceta | sí, cada uno en su fecha | Capa de texto del PDF del editor, sin OCR propio |
+| [WIPO Lex](https://www.wipo.int/wipolex/es/legislation/details/2143) | Código de Comercio (Decreto 73-50) | no | Copia secundaria: no hallamos copia oficial abierta |
 | CEDIJ, Poder Judicial | [Código Procesal Penal](https://web.archive.org/web/20211228215105/http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/CodigoProcesalPenal%28ActualizadoNoviembre2021%29.pdf) (Decreto 9-99-E) y [Código Civil](https://web.archive.org/web/20211228214249/http://www.poderjudicial.gob.hn/CEDIJ/Leyes/Documents/C%C3%B3digoCivil%28actualizadomayo2018%29.pdf) (Decreto 76-1906), con sus reformas | no | Leídos de copias del Internet Archive de diciembre de 2021 |
 
 ## Licencia
