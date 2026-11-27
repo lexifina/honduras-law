@@ -11,7 +11,7 @@ El derecho de Honduras como historial de git: un archivo por artículo, un commi
 
 Forma parte de [lexifina/global-law](https://github.com/lexifina/global-law), un único historial de git para el derecho de todos los países: este es el derecho nacional de Honduras, que global-law lee en `honduras/national/acts/`.
 
-**Qué contiene ahora:** la Constitución de 1982, 8 códigos (entre ellos el Civil, Penal, Procesal Penal, del Trabajo y de Comercio), 54 decretos del Congreso Nacional, 1 decretos ejecutivos y 1 acuerdos publicados en La Gaceta: 65 normas y 8.764 disposiciones. La estructura está en [`STRUCTURE.md`](STRUCTURE.md); el `README.md` de cada norma enumera sus disposiciones.
+**Qué contiene ahora:** la Constitución de 1982, 8 códigos (entre ellos el Civil, Penal, Procesal Penal, del Trabajo y de Comercio), 56 decretos del Congreso Nacional, 1 decretos ejecutivos y 1 acuerdos publicados en La Gaceta: 67 normas y 9.063 disposiciones. La estructura está en [`STRUCTURE.md`](STRUCTURE.md); el `README.md` de cada norma enumera sus disposiciones.
 
 Cada norma es una carpeta con nombres en español: la Constitución es `constitucion/` (sus encabezados son los archivos `seccion-`), los códigos están en `codigos/` (`codigos/codigo-del-trabajo/art-346.md` es el artículo 346 del Código del Trabajo, Decreto 189-59, sobre la duración de las vacaciones anuales remuneradas), los decretos en `decretos/<año>/<NNN>-<objeto>/`, los decretos ejecutivos (PCM) en `decretos-ejecutivos/<año>/` y los acuerdos en `acuerdos/<año>/`. Un decreto que reforma otra ley es un solo archivo, `texto.md`. [`data/paths.json`](data/paths.json) relaciona el id de cada norma con su carpeta.
 
